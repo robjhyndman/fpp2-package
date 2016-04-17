@@ -5,7 +5,7 @@
 Annual oil production in Saudi Arabia
 }
 \description{
-Annual oil production (millions of tonnes), Saudi Arabia, 1965-2010.
+Annual oil production (millions of tonnes), Saudi Arabia, 1965-2013.
 }
 \usage{data(oil)}
 

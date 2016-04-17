@@ -2,7 +2,7 @@
 \alias{usmelec}
 \docType{data}
 \title{
-Electricity monthly total net generation. January 1973-October 2010.
+Electricity monthly total net generation. January 1973 - June 2013.
 }
 \description{
 Electricity net generation measured in billions of kilowatt hours (kWh).

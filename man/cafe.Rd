@@ -1,21 +1,20 @@
-\name{cafe}
-\alias{cafe}
+\name{auscafe}
+\alias{auscafe}
 \docType{data}
 \title{
-Quarterly expenditure on eating out in Australia
+Monthly expenditure on eating out in Australia
 }
 \description{
-The total quarterly expenditure on cafes, restaurants and takeway food services in Australia
-(1982:Q2-2010:Q4)
+The total monthly expenditure on cafes, restaurants and takeway food services in Australia ($billion). April 1982 - February 2016.
 }
-\usage{data(cafe)}
+\usage{data(auscafe)}
 
-\format{Quarterly time series of class \code{ts}.}
+\format{Monthly time series of class \code{ts}.}
 
 \source{Australian Bureau of Statistics. Catalogue No. 8501.0}
 
 \examples{
-plot(cafe)
+plot(auscafe)
 }
 \keyword{datasets}
 

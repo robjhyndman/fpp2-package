@@ -5,7 +5,7 @@
 Growth rates of personal consumption and personal income in the USA.
 }
 \description{
-Percentage changes in quarterly personal consumption expenditure and personal disposable income for the US, 1970 to 2010.
+Percentage changes in quarterly personal consumption expenditure and personal disposable income for the US, 1970 to 2015.
 }
 \usage{data(usconsumption)}
 \format{Time series object of class \code{ts}.

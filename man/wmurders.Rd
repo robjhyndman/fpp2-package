@@ -2,7 +2,7 @@
 \alias{wmurders}
 \docType{data}
 \title{
-Annual female murder rate (per 100,000 standard population) in the USA.
+Annual female murder rate (per 100,000 standard population) in the USA. 1950-2004.
 }
 \description{
 Total Murdered women, per 100 000 standard population.

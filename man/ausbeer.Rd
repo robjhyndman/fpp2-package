@@ -5,7 +5,7 @@
 Quarterly Australian Beer production
 }
 \description{
-Total quarterly beer production in Australia (in megalitres) from 1956:Q1 to 2008:Q3.
+Total quarterly beer production in Australia (in megalitres) from 1956:Q1 to 2010:Q2.
 }
 \usage{data(ausbeer)}
 \format{Quarterly time series of class \code{ts}.}

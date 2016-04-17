@@ -5,7 +5,7 @@
 Livestock (sheep) in Asia, 1961-2007.
 }
 \description{
-Annual sheep livestock  numbers in Asia.
+Annual sheep livestock  numbers in Asia (in million head).
 }
 \usage{data(livestock)}
 
