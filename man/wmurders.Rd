@@ -7,7 +7,7 @@ Annual female murder rate (per 100,000 standard population) in the USA.
 \description{
 Total Murdered women, per 100 000 standard population.
 }
-\usage{data(h02)}
+\usage{data(wmurders)}
 
 \format{Annual time series of class \code{ts}.}
 

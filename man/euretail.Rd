@@ -9,7 +9,7 @@ Quarterly retail trade index in the Euro area (17 countries), 1996-2011, coverin
 }
 \usage{data(euretail)}
 
-\format{Annual time series of class \code{ts}.}
+\format{Quarterly time series of class \code{ts}.}
 
 \source{Eurostat. \url{http://data.is/IdKyZr}}
 

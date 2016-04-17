@@ -8,7 +8,7 @@ International Tourists to Australia: Total visitor nights.
 Quarterly visitor nights spent by international tourists to Australia. 1999-2010.
 }
 \usage{data(austourists)}
-\format{Annual time series of class \code{ts}.}
+\format{Quarterly time series of class \code{ts}.}
 
 \source{
 Tourism Research Australia.

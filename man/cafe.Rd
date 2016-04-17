@@ -10,7 +10,7 @@ The total quarterly expenditure on cafes, restaurants and takeway food services 
 }
 \usage{data(cafe)}
 
-\format{Annual time series of class \code{ts}.}
+\format{Quarterly time series of class \code{ts}.}
 
 \source{Australian Bureau of Statistics. Catalogue No. 8501.0}
 
