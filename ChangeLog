@@ -1,13 +1,18 @@
+Version 2.0 (?? 2016)
+ * Updated data where available
+ * Corrected some help files
+ * Added new data
+
 Version 0.5 (14 March 2013)
   * added vn, debitcards, departures and cafe data sets.
   * missing value removed from end of usmelec.
-  
+
 Version 0.4 (30 April 2012)
   * euretail data added.
-  
+
 Version 0.3 (26 March 2012)
   * More data added
-  
+
 Version 0.2 (22 February 2012)
   * More data added
   * Changed description so it now mentions the book rather than the workshop.
