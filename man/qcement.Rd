@@ -5,7 +5,7 @@
 Quarterly Australian Portland Cement production
 }
 \description{
-Total quarterly production of Portland cement in Australia (in thousands of tonnes) from 1956:Q1 to 2010:Q2.
+Total quarterly production of Portland cement in Australia (in millions of tonnes) from 1956:Q1 to 2010:Q2.
 }
 \usage{data(ausbeer)}
 \format{Quarterly time series of class \code{ts}.}
