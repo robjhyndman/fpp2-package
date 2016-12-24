@@ -5,7 +5,7 @@
 Quarterly visitor nights for various regions of Australia.
 }
 \description{
-Total quarterly visitor nights (in millions) from 1998-2011 for eight regions of Australia:
+Total quarterly visitor nights (in millions) from 1998-2015 for eight regions of Australia:
 \describe{
 	\item{\code{Sydney}}{The Sydney metropolitan area.}
 	\item{\code{NSW}}{New South Wales other than Sydney}

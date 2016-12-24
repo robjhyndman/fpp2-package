@@ -1,4 +1,4 @@
-\name{maxtempe}
+\name{maxtemp}
 \alias{maxtemp}
 \docType{data}
 \title{

@@ -5,7 +5,7 @@
 Monthly expenditure on eating out in Australia
 }
 \description{
-The total monthly expenditure on cafes, restaurants and takeway food services in Australia ($billion). April 1982 - February 2016.
+The total monthly expenditure on cafes, restaurants and takeway food services in Australia ($billion). April 1982 - October 2016.
 }
 \usage{data(auscafe)}
 

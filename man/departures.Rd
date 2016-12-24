@@ -5,7 +5,7 @@
 Total monthly departures from Australia
 }
 \description{
-Overseas departures from Australia: permanent departures, long-term (more than one year) residents departing, long-term (more than one year) visitors departing, short-term (less than one year) residents departing and short-term (less than one year) visitors departing. January 1976 - February 2016.
+Overseas departures from Australia: permanent departures, long-term (more than one year) residents departing, long-term (more than one year) visitors departing, short-term (less than one year) residents departing and short-term (less than one year) visitors departing. January 1976 - October 2016.
 
 }
 \usage{data(departures)}

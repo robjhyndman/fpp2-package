@@ -5,7 +5,7 @@
 Air Transport Passengers Australia
 }
 \description{
-Total annual air passengers (in millions) including domestic and international aircraft passengers of air carriers registered in Australia. 1970-2014.
+Total annual air passengers (in millions) including domestic and international aircraft passengers of air carriers registered in Australia. 1970-2015.
 }
 \usage{data(ausair)}
 \format{Annual time series of class \code{ts}.}
