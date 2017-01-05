@@ -5,14 +5,14 @@ fppcols <- function(...)
   fpp_palette <- function(n)
   {
     colvec <- c(
-    #Data="#000000", #black
     "#E69F00", #orange
     "#56B4E9", #sky_blue
     "#CC79A7", #reddish_purple
-    "#D55E00", #vermillion
     "#009E73", #bluish_green
     "#F0E442", #yellow
-    "#0072B2" #blue
+    "#0072B2", #blue
+    "#D55E00", #vermillion
+    "#000000" #black
     )
     ncols <- length(colvec)
     if (n > ncols)
