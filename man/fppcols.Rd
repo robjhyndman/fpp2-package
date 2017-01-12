@@ -16,7 +16,7 @@ fc1 <- naive(WWWusage,h=20)
 fc2 <- forecast(ets(WWWusage), h=20)
 fc3 <- forecast(auto.arima(WWWusage), h=20)
 autoplot(WWWusage) +
-  geom_forecast(fc1, series="Naïve", PI=FALSE) +
+  geom_forecast(fc1, series="Naive", PI=FALSE) +
   geom_forecast(fc2, series="ETS", PI=FALSE) +
   geom_forecast(fc3, series="ARIMA", PI=FALSE) +
   ggtitle("Forecasts for internet users")  +

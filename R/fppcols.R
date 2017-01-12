@@ -24,3 +24,4 @@ fppcols <- function(...)
   }
   ggplot2::discrete_scale("colour", "fpp", fpp_palette, ...)
 }
+
