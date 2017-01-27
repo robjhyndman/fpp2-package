@@ -1,2 +1,5 @@
 # Export all names
 exportPattern(".")
+
+# Imports
+import(forecast, ggplot2, fma, expsmooth)
