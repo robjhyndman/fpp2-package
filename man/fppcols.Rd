@@ -21,13 +21,13 @@ autoplot(WWWusage) +
   geom_forecast(fc3, series="ARIMA", PI=FALSE) +
   ggtitle("Forecasts for internet users")  +
   xlab("Minute") + ylab("Number of users") +
-  guides(colour=guide_legend(title="Forecast")) + 
+  guides(colour=guide_legend(title="Forecast")) +
   fppcols()
 }
 \references{
 Chang, W. "\href{http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/#a-colorblind-friendly-palette}{Cookbook for R}"
 \url{http://jfly.iam.u-tokyo.ac.jp/color}
 
-Hyndman, R.J., and G. Athanasopoulos (2017) "Forecasting: Principles and Practice", \url{OTexts.com/fpp}. 
+Hyndman, R.J., and G. Athanasopoulos (2017) "Forecasting: Principles and Practice", \url{OTexts.com/fpp2}.
 }
 
