@@ -15,6 +15,6 @@ Australian Bureau of Statistics. Cat. 8301.0.55.001.
 }
 \examples{
 data(ausbeer)
-seasonplot(ausbeer)
+ggseasonplot(ausbeer)
 }
 \keyword{datasets}

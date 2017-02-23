@@ -14,7 +14,7 @@ Quarterly retail trade index in the Euro area (17 countries), 1996-2011, coverin
 \source{Eurostat. \url{http://data.is/IdKyZr}}
 
 \examples{
-plot(euretail)
+autoplot(euretail)
 }
 \keyword{datasets}
 

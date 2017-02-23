@@ -15,6 +15,6 @@ US Energy Information Administration. \url{http://data.is/zgRWCO}.
 }
 
 \examples{
-plot(usmelec)
+autoplot(usmelec)
 }
 \keyword{datasets}

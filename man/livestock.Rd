@@ -14,7 +14,7 @@ Annual sheep livestock  numbers in Asia (in million head).
 \source{United Nations. \url{http://data.is/GFxwQi}}
 
 \examples{
-plot(livestock)
+autoplot(livestock)
 }
 \keyword{datasets}
 

@@ -14,6 +14,6 @@ Total quarterly electricity production in Australia (in billion kWh) from 1956:Q
 Australian Bureau of Statistics. Cat. 8301.0.55.001.
 }
 \examples{
-plot(qauselec)
+autoplot(qauselec)
 }
 \keyword{datasets}

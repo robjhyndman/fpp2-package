@@ -12,6 +12,6 @@ Winning times (in minutes) for the Boston Marathon Men's Open Division. 1897-201
 Boston Athletic Association. \url{http://www.baa.org/races/boston-marathon/boston-marathon-history/champions/mens-open-division.aspx}
 }
 \examples{
-plot(marathon)
+autoplot(marathon)
 }
 \keyword{datasets}

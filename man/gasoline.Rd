@@ -15,6 +15,6 @@ US Energy Information Adminstration.
 }
 
 \examples{
-plot(gasoline, xlab="Year")
+autoplot(gasoline, xlab="Year")
 }
 \keyword{datasets}

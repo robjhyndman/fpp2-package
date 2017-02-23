@@ -13,7 +13,7 @@ Daily closing stock prices of Google Inc
 \source{\url{https://www.quandl.com/data/GOOG/NASDAQ_GOOGL}}
 
 \examples{
-plot(goog)
+autoplot(goog)
 }
 \keyword{datasets}
 

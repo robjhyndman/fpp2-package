@@ -5,7 +5,7 @@
 Insurance quotations and advertising expenditure.
 }
 \description{
-Monthly quotations and monthly television advertising expenditure for a US insurance company. 
+Monthly quotations and monthly television advertising expenditure for a US insurance company.
 January 2002 to April 2005.
 }
 \usage{data(insurance)}
@@ -15,6 +15,6 @@ January 2002 to April 2005.
 Kindly provided by Dave Reilly, Automatic Forecasting Systems.
 }
 \examples{
-plot(insurance)
+autoplot(insurance)
 }
 \keyword{datasets}

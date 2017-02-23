@@ -14,6 +14,6 @@ Quarterly visitor nights (in millions) spent by international tourists to Austra
 Tourism Research Australia.
 }
 \examples{
-plot(austourists)
+autoplot(austourists)
 }
 \keyword{datasets}

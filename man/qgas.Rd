@@ -14,6 +14,6 @@ Total quarterly gas production in Australia (in petajoules) from 1956:Q1 to 2010
 Australian Bureau of Statistics. Cat. 8301.0.55.001.
 }
 \examples{
-plot(qgas)
+autoplot(qgas)
 }
 \keyword{datasets}

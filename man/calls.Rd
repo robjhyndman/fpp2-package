@@ -13,6 +13,6 @@ Rob Hyndman
 }
 
 \examples{
-plot(calls, xlab="Weeks")
+autoplot(calls, xlab="Weeks")
 }
 \keyword{datasets}

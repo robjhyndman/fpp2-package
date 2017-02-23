@@ -14,6 +14,6 @@ Total quarterly production of Portland cement in Australia (in millions of tonne
 Australian Bureau of Statistics. Cat. 8301.0.55.001.
 }
 \examples{
-plot(qcement)
+autoplot(qcement)
 }
 \keyword{datasets}

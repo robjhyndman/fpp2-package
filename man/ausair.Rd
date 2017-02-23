@@ -14,6 +14,6 @@ Total annual air passengers (in millions) including domestic and international a
 World Bank. \url{http://data.is/x5KiEO}
 }
 \examples{
-plot(ausair)
+autoplot(ausair)
 }
 \keyword{datasets}

@@ -14,7 +14,7 @@ Total monthly scripts for pharmaceutical products falling under ATC code A10, as
 \source{Medicare Australia}
 
 \examples{
-plot(a10)
-seasonplot(a10)
+autoplot(a10)
+ggseasonplot(a10)
 }
 \keyword{datasets}

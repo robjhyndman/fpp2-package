@@ -14,6 +14,6 @@ Total Murdered women, per 100 000 standard population.
 \source{Gapminder Foundation. \url{http://data.is/XKa24F}}
 
 \examples{
-plot(wmurders)
+autoplot(wmurders)
 }
 \keyword{datasets}

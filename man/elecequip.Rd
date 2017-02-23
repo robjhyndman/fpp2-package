@@ -15,6 +15,6 @@ Eurostat. \url{http://data.is/y6dO8i}
 }
 
 \examples{
-plot(elecequip)
+autoplot(elecequip)
 }
 \keyword{datasets}

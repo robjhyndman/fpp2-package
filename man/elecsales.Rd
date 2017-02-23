@@ -15,6 +15,6 @@ Australian Energy Market Operator.
 }
 
 \examples{
-plot(elecsales)
+autoplot(elecsales)
 }
 \keyword{datasets}

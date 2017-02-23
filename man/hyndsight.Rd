@@ -15,6 +15,6 @@ Rob Hyndman
 }
 
 \examples{
-plot(hyndsight, xlab="Weeks")
+autoplot(hyndsight, xlab="Weeks")
 }
 \keyword{datasets}

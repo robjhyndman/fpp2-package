@@ -4,7 +4,7 @@
 \alias{fpp2}
 \docType{package}
 \title{Data for "Forecasting: principles and practice"}
-\description{All data sets required for the examples and exercises in the book "Forecasting: principles and practice" (2nd ed) by Rob J Hyndman and George Athanasopoulos.
+\description{All data sets required for the examples and exercises in the book "Forecasting: principles and practice" (2nd ed) by Rob J Hyndman and George Athanasopoulos. This package also loads other packages required for the book.
 }
 \details{
 \tabular{ll}{

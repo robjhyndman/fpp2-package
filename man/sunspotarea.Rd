@@ -13,6 +13,6 @@ Annual average sunspot area (1875-2016)
 NASA. \url{http://solarscience.msfc.nasa.gov/greenwch/sunspot_area.txt}
 }
 \examples{
-plot(sunspotarea)
+autoplot(sunspotarea)
 }
 \keyword{datasets}

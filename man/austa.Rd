@@ -14,6 +14,6 @@ Total international visitors to Australia (in millions). 1980-2015.
 International Visitor Survey, Tourism Research Australia.
 }
 \examples{
-plot(austa)
+autoplot(austa)
 }
 \keyword{datasets}

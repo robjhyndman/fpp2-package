@@ -14,7 +14,7 @@ The total monthly expenditure on cafes, restaurants and takeway food services in
 \source{Australian Bureau of Statistics. Catalogue No. 8501.0}
 
 \examples{
-plot(auscafe)
+autoplot(auscafe)
 }
 \keyword{datasets}
 

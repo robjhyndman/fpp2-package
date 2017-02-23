@@ -14,6 +14,6 @@ Maximum annual temperatures (degrees Celsius) for Moorabbin Airport, Melbourne. 
 Australian Bureau of Meterology.
 }
 \examples{
-plot(maxtemp)
+autoplot(maxtemp)
 }
 \keyword{datasets}

@@ -14,7 +14,7 @@ Retail debit card usage in Iceland (million ISK). January 2000 - August 2013.
 \source{Statistics Iceland. \url{http://data.is/HFzL69}}
 
 \examples{
-plot(debitcards)
+autoplot(debitcards)
 }
 \keyword{datasets}
 

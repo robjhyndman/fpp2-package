@@ -14,6 +14,6 @@ Air traffic numbers are in thousands, and divided into first class, business cla
 Ansett Airlines (which no longer exists).
 }
 \examples{
-plot(melsyd)
+autoplot(melsyd)
 }
 \keyword{datasets}

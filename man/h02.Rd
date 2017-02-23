@@ -14,7 +14,7 @@ Total monthly scripts for pharmaceutical products falling under ATC code H02, as
 \source{Medicare Australia}
 
 \examples{
-plot(h02)
-seasonplot(h02)
+autoplot(h02)
+ggseasonplot(h02)
 }
 \keyword{datasets}

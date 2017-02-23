@@ -25,6 +25,6 @@ Tourism Research Australia.
 }
 
 \examples{
-plot(vn)
+autoplot(vn)
 }
 \keyword{datasets}

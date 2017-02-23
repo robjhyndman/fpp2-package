@@ -14,7 +14,7 @@ Annual oil production (millions of tonnes), Saudi Arabia, 1965-2013.
 \source{BP. \url{http://data.is/GEOHU3}}
 
 \examples{
-plot(oil)
+autoplot(oil)
 }
 \keyword{datasets}
 
