@@ -23,7 +23,7 @@ Overseas departures from Australia: permanent departures, long-term (more than o
 \source{Australian Bureau of Statistics. Catalogue No 3401.02.}
 
 \examples{
-autoplot(departures)
+autoplot(departures, facets=TRUE)
 }
 \keyword{datasets}
 
