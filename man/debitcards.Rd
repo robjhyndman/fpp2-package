@@ -5,11 +5,11 @@
 Retail debit card usage in Iceland.
 }
 \description{
-Retail debit card usage in Iceland (million ISK). January 2000 - August 2013.
+Monthly retail debit card usage in Iceland (million ISK). January 2000 - August 2013.
 }
 \usage{data(debitcards)}
 
-\format{Annual time series of class \code{ts}.}
+\format{Monthly time series of class \code{ts}.}
 
 \source{Statistics Iceland. \url{http://data.is/HFzL69}}
 
