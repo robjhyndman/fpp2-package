@@ -1,4 +1,5 @@
-#fpp2
+fpp2
+=======================
 
 [![Travis-CI Build Status](https://travis-ci.org/robjhyndman/fpp2.svg?branch=master)](https://travis-ci.org/robjhyndman/fpp)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/fpp2)](https://cran.r-project.org/package=fpp2)
