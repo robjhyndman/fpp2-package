@@ -1,5 +1,5 @@
 Version 2.01 (25 May 2017)
- * Switched to roxygen2
+ * Switched to roxygen
  * Fixed documentation
  * Fixed some data dimension errors
  * Restricted uschange data to 1970+
