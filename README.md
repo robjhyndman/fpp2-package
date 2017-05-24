@@ -5,7 +5,6 @@ fpp2
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/fpp2)](https://cran.r-project.org/package=fpp2)
 [![Downloads](http://cranlogs.r-pkg.org/badges/fpp2)](https://cran.r-project.org/package=fpp2)
 [![Rdoc](http://www.rdocumentation.org/badges/version/fpp2)](http://www.rdocumentation.org/packages/fpp2)
-[![Pending Pull-Requests](http://githubbadges.herokuapp.com/robjhyndman/fpp/pulls.svg?style=flat)](https://github.com/robjhyndman/fpp/pulls)
 
 The R package *fpp2* contains all data sets required for the examples and exercises in the book "Forecasting: principles and practice" by Rob J Hyndman and George Athanasopoulos (http://OTexts.org/fpp2/). All packages required to run the examples are also loaded.
 
