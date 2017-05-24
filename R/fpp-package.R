@@ -651,7 +651,7 @@ NULL
 #' compiled daily sunspot observations from May 1874 to 1976. Later data are
 #' from the US Air Force and the US National Oceanic and Atmospheric
 #' Administration. The data have been calibrated to be consistent across the
-#' whole history of observations.}.
+#' whole history of observations.
 #'
 #'
 #' @name sunspotarea

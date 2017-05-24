@@ -6,8 +6,7 @@
 \title{Annual average sunspot area (1875-2016)}
 \format{Annual time series of class \code{ts}.}
 \source{
-NASA.
-\url{http://solarscience.msfc.nasa.gov/greenwch/sunspot_area.txt}
+NASA
 }
 \description{
 Annual averages of the daily sunspot areas (in units of millionths of a
@@ -16,8 +15,7 @@ dark spots on the surface of the sun. The Royal Greenwich Observatory
 compiled daily sunspot observations from May 1874 to 1976. Later data are
 from the US Air Force and the US National Oceanic and Atmospheric
 Administration. The data have been calibrated to be consistent across the
-whole history of observations. More information is available at
-\url{http://solarscience.msfc.nasa.gov/greenwch.shtml}.
+whole history of observations.
 }
 \examples{
 
