@@ -11,6 +11,6 @@ LazyData: yes
 LazyLoad: yes
 Authors@R: c(person(given="Rob", family="Hyndman", role=c("aut", "cre", "cph"),
   email="Rob.Hyndman@monash.edu"))
-License: GPL (>= 2)
+License: GPL (>= 3)
 URL: http://OTexts.org/fpp2/
 RoxygenNote: 6.0.1
