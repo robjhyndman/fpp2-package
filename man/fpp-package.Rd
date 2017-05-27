@@ -12,12 +12,15 @@ All data sets required for the examples and exercises in the book
 Athanasopoulos. This package also loads other packages required for the
 book.
 }
+\references{
+Hyndman, R.J., and Athanasopoulos, G. (2017).
+\emph{Forecasting: principles and practice}, OTexts: Melbourne, Australia.
+\url{http://OTexts.org/fpp2/}
+}
 \seealso{
 \code{\link[forecast]{forecast}} package
 }
 \author{
 Rob J Hyndman
-
-Maintainer: Rob.Hyndman@monash.edu
 }
 \keyword{package}

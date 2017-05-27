@@ -334,8 +334,9 @@ NULL
 #' @aliases fpp-package fpp fpp2
 #' @docType package
 #' @author Rob J Hyndman
-#'
-#' Maintainer: Rob.Hyndman@@monash.edu
+#' @references Hyndman, R.J., and Athanasopoulos, G. (2017).
+#' \emph{Forecasting: principles and practice}, OTexts: Melbourne, Australia.
+#' \url{http://OTexts.org/fpp2/}
 #' @seealso \code{\link[forecast]{forecast}} package
 #' @keywords package
 NULL
@@ -758,6 +759,25 @@ NULL
 #' @examples
 #'
 #' autoplot(wmurders)
+#'
+NULL
+
+
+
+
+#' Winning times in Olympic men's 400m track final. 1896-2016.
+#'
+#' Times in seconds for the gold-medal winner of the men's 400m track final
+#' at each Olympics since 1896. Missing values occur in 1916, 1940 and 1944
+#' due to the World Wars.
+#'
+#' @name mens400
+#' @docType data
+#' @format time series of class \code{ts} with frequency 1/4.
+#' @keywords datasets
+#' @examples
+#'
+#' autoplot(mens400)
 #'
 NULL
 
