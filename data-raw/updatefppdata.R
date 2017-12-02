@@ -252,16 +252,20 @@ save(marathon, file="../data/marathon.rda")
 # AEMO
 
 library(dplyr)
+library(lubridate)
+library(forecast)
 aemo <- readr::read_csv("aemo2015/demand_VIC.csv")
 temp <- readr::read_csv("aemo2015/temp_86071.csv")
-firstday <- max(min(aemo$Date),min(temp$Date))
-lastday <- min(max(aemo$Date),max(temp$Date))
+aemo$Date <- as.Date(aemo$Date,origin="1899-12-30")
+temp$Date <- as.Date(temp$Date,origin="1899-12-30")
+#firstday <- max(min(aemo$Date),min(temp$Date))
+#lastday <- min(max(aemo$Date),max(temp$Date))
+firstday <- as.Date("2014-01-01",origin="1899-12-30")
+lastday <- as.Date("2014-12-31",origin="1899-12-30")
 
 aemo <- filter(aemo, Date >= firstday & Date <= lastday)
 temp <- filter(temp, Date >= firstday & Date <= lastday)
 
-library(lubridate)
-dates <- as.Date(aemo$Date,origin="1899-12-30")
 hols <- as.Date(c(
           "2014-01-01",
           "2014-01-27",
@@ -273,17 +277,15 @@ hols <- as.Date(c(
           "2014-11-04",
           "2014-12-25",
           "2014-12-26"))
-pubhol <- is.element(dates,hols)
-dow <- wday(dates,label=TRUE)
+pubhol <- is.element(aemo$Date,hols)
+dow <- wday(aemo$Date,label=TRUE)
 workday <- dow != "Sun" & dow != "Sat" & !pubhol
 demand <- cbind(Demand=aemo$OperationalLessIndustrial/1e3,
                 WorkDay=workday,
                 Temperature=temp$Temp)
-library(forecast)
 demand <- msts(demand,
                  seasonal.periods=c(48,48*7,48*365),
-                 start=2002)
-demand <- window(demand, start=2014, end=2014.999999)
+                 start=2014)
 plot(demand)
 table(demand[,2])/48
 elecdemand <- demand

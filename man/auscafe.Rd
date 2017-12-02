@@ -10,7 +10,7 @@ Australian Bureau of Statistics. Catalogue No. 8501.0
 }
 \description{
 The total monthly expenditure on cafes, restaurants and takeaway food
-services in Australia ($billion). April 1982 - November 2016.
+services in Australia ($billion). April 1982 - September 2017.
 }
 \examples{
 

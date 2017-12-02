@@ -3,7 +3,7 @@
 \docType{data}
 \name{h02}
 \alias{h02}
-\title{Monthly cortecosteroid drug sales in Australia from July 1991 to June 2008.}
+\title{Monthly corticosteroid drug sales in Australia from July 1991 to June 2008.}
 \format{Monthly time series of class \code{ts}.}
 \source{
 Medicare Australia

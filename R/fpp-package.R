@@ -47,7 +47,7 @@ NULL
 #'
 #' Total annual air passengers (in millions) including domestic and
 #' international aircraft passengers of air carriers registered in Australia.
-#' 1970-2015.
+#' 1970-2016.
 #'
 #'
 #' @name ausair
@@ -131,7 +131,7 @@ NULL
 #' Monthly expenditure on eating out in Australia
 #'
 #' The total monthly expenditure on cafes, restaurants and takeaway food
-#' services in Australia ($billion). April 1982 - November 2016.
+#' services in Australia ($billion). April 1982 - September 2017.
 #'
 #'
 #' @name auscafe
@@ -223,13 +223,19 @@ NULL
 
 
 
-#' Half-hourly electricity demand for Victoria, Australia, in 2014
+#' Half-hourly and daily electricity demand for Victoria, Australia, in 2014
 #'
-#' A time series matrix with three columns.
+#' \code{elecdemand} is a half-hourly time series matrix with three columns:
 #'   \tabular{ll}{
 #'     Demand:      \tab Total electricity demand in GW for Victoria, Australia, every half-hour during 2014.\cr
 #'     WorkDay:     \tab taking value 1 on work days, and 0 otherwise.\cr
 #'     Temperature: \tab half-hourly temperatures for Melbourne (BOM site 086071).
+#' }
+#' \code{elecdaily} is a daily time series matrix with three columns:
+#'   \tabular{ll}{
+#'     Demand:      \tab Total electricity demand in GW for Victoria, Australia, every day during 2014.\cr
+#'     WorkDay:     \tab taking value 1 on work days, and 0 otherwise.\cr
+#'     Temperature: \tab maximum daily temperatures for Melbourne (BOM site 086071).
 #' }
 #'
 #' This data is for operational demand, which is the demand met by local
@@ -251,9 +257,14 @@ NULL
 #' @examples
 #'
 #' summary(elecdemand)
+#' summary(elecdaily)
 #'
 NULL
 
+#' @name elecdaily
+#' @rdname elecdemand
+#'
+NULL
 
 
 
@@ -644,7 +655,7 @@ NULL
 
 
 
-#' Annual average sunspot area (1875-2016)
+#' Annual average sunspot area (1875-2015)
 #'
 #' Annual averages of the daily sunspot areas (in units of millionths of a
 #' hemisphere) for the full sun. Sunspots are magnetic regions that appear as

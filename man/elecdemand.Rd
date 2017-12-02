@@ -3,18 +3,25 @@
 \docType{data}
 \name{elecdemand}
 \alias{elecdemand}
-\title{Half-hourly electricity demand for Victoria, Australia, in 2014}
+\alias{elecdaily}
+\title{Half-hourly and daily electricity demand for Victoria, Australia, in 2014}
 \format{Multiple time series of class \code{mts}.}
 \source{
 Australian Energy Market Operator, and the Australian Bureau of
 Meteorology.
 }
 \description{
-A time series matrix with three columns.
+\code{elecdemand} is a half-hourly time series matrix with three columns:
   \tabular{ll}{
     Demand:      \tab Total electricity demand in GW for Victoria, Australia, every half-hour during 2014.\cr
     WorkDay:     \tab taking value 1 on work days, and 0 otherwise.\cr
     Temperature: \tab half-hourly temperatures for Melbourne (BOM site 086071).
+}
+\code{elecdaily} is a daily time series matrix with three columns:
+  \tabular{ll}{
+    Demand:      \tab Total electricity demand in GW for Victoria, Australia, every day during 2014.\cr
+    WorkDay:     \tab taking value 1 on work days, and 0 otherwise.\cr
+    Temperature: \tab maximum daily temperatures for Melbourne (BOM site 086071).
 }
 }
 \details{
@@ -31,6 +38,7 @@ excludes some very large industrial users (such as mines or smelters).
 \examples{
 
 summary(elecdemand)
+summary(elecdaily)
 
 }
 \keyword{datasets}
