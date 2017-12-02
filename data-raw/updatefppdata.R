@@ -323,9 +323,8 @@ save(calls, file=paste("../data/calls.rda",sep=""))
 # GASOLINE
 
 gasoline <- readxl::read_excel("WGFUPUS2w.xls", sheet=2, skip=3, col_names=FALSE)
-gasoline <- ts(gasoline$X2[1:1355], frequency=365.25/7,
+gasoline <- ts(gasoline[,2], frequency=365.25/7,
                start=1991.1)
-window(gasoline, end=2016)
 tail(gasoline)
 plot(gasoline)
 save(gasoline, file=paste("../data/gasoline.rda",sep=""))
