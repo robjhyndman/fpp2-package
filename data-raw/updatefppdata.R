@@ -330,8 +330,11 @@ plot(gasoline)
 save(gasoline, file=paste("../data/gasoline.rda",sep=""))
 
 # Google
-goog <- ts(tail(rev(Quandl::Quandl("GOOG/NASDAQ_GOOGL")[,5]), 1000))
-save(goog, file=paste("../data/goog.rda",sep=""))
+#goog <- ts(tail(rev(Quandl::Quandl("GOOG/NASDAQ_GOOGL")[,5]), 1000))
+#save(goog, file="../data/goog.rda")
+goog200 <- subset(fpp2::goog, end=200)
+save(goog200, file="../data/goog200.rda")
+
 
 # Fill in missing Olympics
 olympic <- rbind(fma::olympic,

@@ -381,6 +381,7 @@ NULL
 #'
 #' Closing stock prices of GOOG from the NASDAQ exchange, for 1000 consecutive
 #' trading days between 25 February 2013 and 13 February 2017.
+#' \code{goog200} contains the first 200 observations from \code{goog}.
 #'
 #'
 #' @name goog
@@ -395,8 +396,9 @@ NULL
 NULL
 
 
-
-
+#' @name goog200
+#' @rdname goog
+NULL
 
 #' Rice production (Guinea)
 #'
