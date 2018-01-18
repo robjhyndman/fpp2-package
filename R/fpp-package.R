@@ -18,10 +18,6 @@
 #' @import expsmooth fma forecast ggplot2
 NULL
 
-
-
-
-
 #' International Arrivals to Australia
 #'
 #' Quarterly international arrivals (in thousands) to Australia from Japan, New
@@ -38,10 +34,6 @@ NULL
 #' autoplot(arrivals)
 #'
 NULL
-
-
-
-
 
 #' Air Transport Passengers Australia
 #'
@@ -796,3 +788,40 @@ NULL
 
 
 
+#' prison
+#' 
+#' @name prison
+#' @docType data
+#' @format time series of class \code{mts} with frequency ??
+#' @keywords datasets
+#' @examples
+#'
+#' autoplot(prison)
+#'
+NULL
+
+
+#' prisonLF
+#' 
+#' @name prisonLF
+#' @docType data
+#' @format data frame
+#' @keywords datasets
+#' @examples
+#'
+#' head(prisonLF)
+#'
+NULL
+
+
+#' vn2
+#' 
+#' @name vn2
+#' @docType data
+#' @format data frame
+#' @keywords datasets
+#' @examples
+#'
+#' head(vn2)
+#'
+NULL
