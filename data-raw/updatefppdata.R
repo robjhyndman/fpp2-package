@@ -198,20 +198,6 @@ plot(oil)
 lines(fpp::oil, col='red')
 devtools::use_data(oil, overwrite = TRUE)
 
-#### prisonLF
-prisonLF <- read.csv("data-raw/prisonLF1.csv")
-prisonLF$t <- as.Date(prison$date, format = "%Y/%m/%d")
-prisonLF$count <- as.numeric(prison$count)
-prisonLF$quarter <- as.Date(cut(prison$t, breaks = "quarter"))
-prisonLF$year <- as.Date(cut(prison$t, breaks="year"))
-devtools::use_data(prisonLF, overwrite=TRUE)
-
-#### prison
-prison <- read.csv("data-raw/prison.csv", strip.white = TRUE, check.names=FALSE)
-prison <- ts(prison, start=c(2005,1), end=c(2016,4), frequency=4)
-# Need to make data into prison time series matrix to add to fpp2
-devtools::use_data(prison, overwrite=TRUE)
-
 #### qauselec
 qauselec <- ts(ausproduction[,"A2267053L"], frequency=4, start=1956)[,1]/1e3
 devtools::use_data(qauselec, overwrite=TRUE)
