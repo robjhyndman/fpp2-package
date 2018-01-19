@@ -715,39 +715,23 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Quarterly visitor nights for various regions of Australia.
 #'
-#' Total quarterly visitor nights (in millions) from 1998-2015 for eight
-#' regions of Australia:
-#'   \tabular{ll}{
-#'     Sydney     \tab The Sydney metropolitan area.\cr
-#'     NSW        \tab New South Wales other than Sydney\cr
-#'     Melbourne  \tab The Melbourne metropolitan area.\cr
-#'     VIC        \tab Victoria other than Melbourne.\cr
-#'     BrisbaneGC \tab The Brisbane and Gold Coast area.\cr
-#'     QLD        \tab Queensland other than Brisbane and the Gold Coast.\cr
-#'     Capitals   \tab The other five capital cities: Adelaide, Hobart, Perth, Darwin and Canberra.\cr
-#'     Other      \tab All other areas of Australia.
-#' }
+#' Total quarterly visitor nights (in millions) from 1998-2016 for twenty
+#' regions of Australia within six states. The states are:
+#' New South Wales, Queensland, South Australia, Victoria, Western Australia, and
+#' Other.
 #'
-#'
-#' @name vn
+#' @name visnights
 #' @docType data
 #' @format Time series object of class \code{mts}.
 #' @source Tourism Research Australia.
 #' @keywords datasets
 #' @examples
 #'
-#' autoplot(vn, facets=TRUE)
+#' autoplot(visnights)
 #'
 NULL
-
-
-
 
 
 #' Annual female murder rate (per 100,000 standard population) in the USA.
@@ -789,7 +773,7 @@ NULL
 
 
 #' prison
-#' 
+#'
 #' @name prison
 #' @docType data
 #' @format time series of class \code{mts} with frequency ??
@@ -802,7 +786,7 @@ NULL
 
 
 #' prisonLF
-#' 
+#'
 #' @name prisonLF
 #' @docType data
 #' @format data frame
@@ -813,15 +797,3 @@ NULL
 #'
 NULL
 
-
-#' vn2
-#' 
-#' @name vn2
-#' @docType data
-#' @format data frame
-#' @keywords datasets
-#' @examples
-#'
-#' head(vn2)
-#'
-NULL

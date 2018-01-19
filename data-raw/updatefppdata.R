@@ -281,19 +281,19 @@ plot(usmelec)
 lines(fpp::usmelec, col='red')
 devtools::use_data(usmelec, overwrite=TRUE)
 
-#### vn
-tmp <- readxl::read_excel("data-raw/vnUpdated2016.xlsx")
-vn <- ts(tmp[,10:17], start=1998, frequency=4)
-colnames(vn) <- colnames(fpp::vn)
-plot(vn)
-plot(fpp::vn, col='red')
-vn <- vn/1e3
-devtools::use_data(vn, overwrite=TRUE)
+# #### vn
+# tmp <- readxl::read_excel("data-raw/vnUpdated2016.xlsx")
+# vn <- ts(tmp[,10:17], start=1998, frequency=4)
+# colnames(vn) <- colnames(fpp::vn)
+# plot(vn)
+# plot(fpp::vn, col='red')
+# vn <- vn/1e3
+# devtools::use_data(vn, overwrite=TRUE)
 
-#### vn2
-vn2 <- read.csv("data-raw/vn2.csv") 
-vn2 <- ts(vn2, start = 1998, frequency = 4)
-devtools::use_data(vn2, overwrite=TRUE)
+#### visnights
+visnights <- read.csv("data-raw/vn2.csv")
+visnights <- ts(visnights, start = 1998, frequency = 4)
+devtools::use_data(visnights, overwrite=TRUE)
 
 #### wmurders
 # No new data
