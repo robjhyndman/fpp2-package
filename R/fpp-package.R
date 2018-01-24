@@ -776,24 +776,20 @@ NULL
 #'
 #' @name prison
 #' @docType data
-#' @format time series of class \code{mts} with frequency ??
+#' @format Quarterly time series of prisoner numbers in Australia from 2005 to 2016, split
+#' by sex, state and legal status. \code{prisonLF} is a long-form version of the data of
+#' class \code{data.frame}, while \code{prison} is in wide form and of class \code{mts}.
 #' @keywords datasets
 #' @examples
 #'
 #' autoplot(prison)
-#'
-NULL
-
-
-#' prisonLF
-#'
-#' @name prisonLF
-#' @docType data
-#' @format data frame
-#' @keywords datasets
-#' @examples
-#'
 #' head(prisonLF)
 #'
 NULL
+
+#' @name prisonLF
+#' @rdname prison
+#' 
+NULL
+
 
