@@ -18,3 +18,4 @@
 ^logo\.png$
 ^appveyor\.yml$
 ^docs$
+Makefile
