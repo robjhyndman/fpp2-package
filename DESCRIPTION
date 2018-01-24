@@ -1,5 +1,5 @@
 Package: fpp2
-Version: 2.1
+Version: 2.2
 Title: Data for "Forecasting: Principles and Practice" (2nd Edition)
 Description: All data sets required for the examples and exercises 
   in the book "Forecasting: principles and practice" 
@@ -15,5 +15,5 @@ LazyLoad: yes
 Authors@R: c(person(given="Rob", family="Hyndman", role=c("aut", "cre", "cph"),
   email="Rob.Hyndman@monash.edu"))
 License: GPL (>= 3)
-URL: http://OTexts.org/fpp2/
 RoxygenNote: 6.0.1
+URL: http://pkg.robjhyndman.com/fpp, https://github.com/robjhyndman/fpp, https://OTexts.org/fpp2/

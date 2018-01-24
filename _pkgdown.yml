@@ -1,0 +1,80 @@
+template:
+  params:
+    bootswatch: flatly
+
+authors:
+  Rob Hyndman:
+    href: http://robjhyndman.com
+
+navbar:
+  type: default
+  left:
+    - text: "Reference"
+      href: reference/index.html
+    - text: "Change Log"
+      href: news/index.html
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/robjhyndman/fpp
+
+reference:
+  - title: "Super-Annual Data"
+    desc: "Data recorded at intervals greater than one year"
+    contents:
+      - mens400
+  - title: "Annual Data"
+    desc: "Data recorded every year"
+    contents:
+      - ausair
+      - austa
+      - elecsales
+      - livestock
+      - marathon
+      - maxtemp
+      - oil
+      - sunspotarea
+      - wmurders
+  - title: "Quarterly Data"
+    desc: "Data recorded every quarter"
+    contents:
+      - arrivals
+      - ausbeer
+      - austourists
+      - euretail
+      - guinearice
+      - prison
+      - qauselec
+      - qcement
+      - qgas
+      - uschange
+      - visnights
+  - title: "Monthly Data"
+    desc: "Data recorded every month"
+    contents:
+      - a10
+      - auscafe
+      - debitcards
+      - departures
+      - elecequip
+      - h02
+      - insurance
+      - usmelec
+  - title: "Weekly Data"
+    desc: "Data recorded every week"
+    contents:
+      - gasoline
+      - melsyd
+  - title: "Daily Data"
+    desc: "Data recorded every day"
+    contents:
+      - elecdaily
+      - goog
+      - hyndsight
+  - title: "Half-hourly Data"
+    desc: "Data recorded every 30 minutes"
+    contents:
+      - elecdemand
+  - title: "Five-Minute Data"
+    desc: "Data recorded every 5 minutes"
+    contents:
+      - calls
