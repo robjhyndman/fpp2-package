@@ -3,12 +3,10 @@
 #
 # Assumes Makefile is in top folder of package
 
-PKG_NAME=$(shell grep -i ^package DESCRIPTION | cut -d : -d \  -f 2)
-
 all: build pkgdown install
 
 check: 
-	rcheck
+	Rscript -e "devtools::check(document=TRUE)"
 
 build:
 	R CMD build .
@@ -24,7 +22,10 @@ winbuild:
 	Rscript -e "rt::rwinbuild(devel=TRUE)"
 
 clean:
-	-rm -f ../$(PKG_NAME)_*.tar.gz
+	-rm -f ../fpp_*.tar.gz
 	-rm -r -f man/*.Rd
 	-rm -r -f NAMESPACE
+
+docs:
+	Rscript -e "rt::rdoc()"
 
