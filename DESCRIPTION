@@ -6,10 +6,10 @@ Description: All data sets required for the examples and exercises
   by Rob J Hyndman and George Athanasopoulos <http://OTexts.org/fpp2/>. 
   All packages required to run the examples are also loaded.
 Depends: R (>= 2.10),
+  ggplot2,
   forecast (>= 8.0),
   fma,
-  expsmooth,
-  ggplot2
+  expsmooth
 LazyData: yes
 LazyLoad: yes
 Authors@R: c(person(given="Rob", family="Hyndman", role=c("aut", "cre", "cph"),
