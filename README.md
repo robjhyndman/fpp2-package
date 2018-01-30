@@ -1,6 +1,6 @@
 # fpp2
 
-[![Travis-CI Build Status](https://travis-ci.org/robjhyndman/fpp.svg?branch=master)](https://travis-ci.org/robjhyndman/fpp)
+[![Travis-CI Build Status](https://travis-ci.org/robjhyndman/fpp.svg?branch=master)](https://travis-ci.org/robjhyndman/fpp2-package)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/fpp2)](https://cran.r-project.org/package=fpp2)
 [![Downloads](http://cranlogs.r-pkg.org/badges/fpp2)](https://cran.r-project.org/package=fpp2)
 [![Rdoc](http://www.rdocumentation.org/badges/version/fpp2)](http://www.rdocumentation.org/packages/fpp2)
@@ -16,11 +16,11 @@ install.packages('fpp2', dependencies = TRUE)
 ```
 
 You can install the **development** version from
-[Github](https://github.com/robjhyndman/fpp)
+[Github](https://github.com/robjhyndman/fpp2-package)
 
 ```s
 # install.packages("devtools")
-devtools::install_github("robjhyndman/fpp")
+devtools::install_github("robjhyndman/fpp2-package")
 ```
 
 

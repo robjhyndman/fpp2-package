@@ -16,4 +16,4 @@ Authors@R: c(person(given="Rob", family="Hyndman", role=c("aut", "cre", "cph"),
   email="Rob.Hyndman@monash.edu"))
 License: GPL (>= 3)
 RoxygenNote: 6.0.1
-URL: http://pkg.robjhyndman.com/fpp, https://github.com/robjhyndman/fpp, https://OTexts.org/fpp2/
+URL: http://pkg.robjhyndman.com/fpp2-package, https://github.com/robjhyndman/fpp2-package, https://OTexts.org/fpp2/

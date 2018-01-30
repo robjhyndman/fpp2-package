@@ -15,7 +15,7 @@ navbar:
       href: news/index.html
   right:
     - icon: fa-github fa-lg
-      href: https://github.com/robjhyndman/fpp
+      href: https://github.com/robjhyndman/fpp2-package
 
 reference:
   - title: "Super-Annual Data"
