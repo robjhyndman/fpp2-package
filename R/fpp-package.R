@@ -789,7 +789,5 @@ NULL
 
 #' @name prisonLF
 #' @rdname prison
-#' 
+#'
 NULL
-
-
