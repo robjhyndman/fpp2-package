@@ -141,7 +141,7 @@ gasoline <- readxl::read_excel("data-raw/WGFUPUS2w.xls", sheet = 2, skip = 3, co
 gasoline <- ts(
   gasoline[, 2], frequency = 365.25 / 7,
   start = 1991.1
-)
+)[,1]
 tail(gasoline)
 plot(gasoline)
 devtools::use_data(gasoline, overwrite = TRUE)
