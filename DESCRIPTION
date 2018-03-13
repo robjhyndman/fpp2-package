@@ -10,7 +10,7 @@ Depends: R (>= 2.10),
   forecast (>= 8.0),
   fma,
   expsmooth
-Suggests: GGally,gridExtra,scales,tidyverse
+Suggests: GGally,gridExtra,Mcomp,scales,tidyverse,vars
 LazyData: yes
 LazyLoad: yes
 Authors@R: c(person(given="Rob", family="Hyndman", role=c("aut", "cre", "cph"),
