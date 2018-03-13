@@ -318,7 +318,7 @@ devtools::use_data(usmelec, overwrite = TRUE)
 
 #### visnights
 visnights <- read.csv("data-raw/vn2.csv")
-visnights <- ts(visnights, start = 1998, frequency = 4)
+visnights <- ts(visnights/1e3, start = 1998, frequency = 4)
 devtools::use_data(visnights, overwrite = TRUE)
 
 #### wmurders
