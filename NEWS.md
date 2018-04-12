@@ -1,3 +1,8 @@
+# Version 2.3 (12 April 2018)
+ * Changed scale of visnights and gasoline
+ * Added packages to Suggests for all examples
+ * Now depends on forecast v8.3+
+
 # Version 2.2 (24 January 2018)
  * Added raw data to package
  * Added elecdaily
