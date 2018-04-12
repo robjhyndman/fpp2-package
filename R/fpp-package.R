@@ -351,7 +351,7 @@ NULL
 #' US finished motor gasoline product supplied.
 #'
 #' Weekly data beginning 2 February 1991, ending 20 January 2017. Units are
-#' "thousand barrels per day".
+#' "million barrels per day".
 #'
 #'
 #' @name gasoline
