@@ -3,15 +3,15 @@
 \docType{data}
 \name{a10}
 \alias{a10}
-\title{Monthly anti-diabetic drug sales in Australia from 1991 to 2008.}
+\title{Monthly anti-diabetic drug subsidy in Australia from 1991 to 2008.}
 \format{Monthly time series of class \code{ts}.}
 \source{
 Medicare Australia
 }
 \description{
-Total monthly scripts for pharmaceutical products falling under ATC code
-A10, as recorded by the Australian Health Insurance Commission. July 1991 -
-June 2008.
+Monthly government expenditure (millions of dollars) as part of the
+Pharmaceutical Benefit Scheme for products falling under ATC code A10
+as recorded by the Australian Health Insurance Commission. July 1991 - June 2008.
 }
 \examples{
 
