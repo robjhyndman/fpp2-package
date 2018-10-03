@@ -21,13 +21,19 @@
 <!-- clipboard.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js" integrity="sha384-cV+rhyOuRHc9Ub/91rihWcGmMmCXDeksTtCihMupQHSsi8GIIRDG0ThDc3HGQFJ3" crossorigin="anonymous"></script>
 
+<!-- sticky kit -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" integrity="sha256-c4Rlo1ZozqTPE2RLuvbusY3+SU1pQaJC0TjuhygMipw=" crossorigin="anonymous"></script>
+
 <!-- pkgdown -->
 <link href="../pkgdown.css" rel="stylesheet">
-<script src="../jquery.sticky-kit.min.js"></script>
 <script src="../pkgdown.js"></script>
-  
-  
+
+
+
 <meta property="og:title" content="Function reference" />
+
+
+
 <!-- mathjax -->
 <script src='https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
@@ -50,8 +56,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="../index.html">fpp2</a>
+      <span class="navbar-brand">
+        <a class="navbar-link" href="../index.html">fpp2</a>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">2.3</span>
+      </span>
     </div>
+
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
@@ -70,6 +80,7 @@
   </a>
 </li>
       </ul>
+      
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
@@ -77,308 +88,304 @@
       
       </header>
 
-      <div class="row">
-  <div class="col-md-9">
+<div class="row">
+  <div class="contents col-md-9">
     <div class="page-header">
-      <h1>
-        Reference
-        <small>version&nbsp;2.3</small>
-      </h1>
+      <h1>Reference</h1>
     </div>
 
-    <div class="contents">
-      <table class="ref-index">
+    <table class="ref-index">
 
-      <colgroup>
-        <col class="alias" />
-        <col class="title" />
-      </colgroup>
+    <colgroup>
+      
+      <col class="alias" />
+      <col class="title" />
+    </colgroup>
 
-      <tbody>
-        <tr>
-          <th colspan="2">
-            <h2 id="section-super-annual-data" class="hasAnchor"><a href="#section-super-annual-data" class="anchor"></a>Super-Annual Data</h2>
-            <p class="section-desc"><p>Data recorded at intervals greater than one year</p></p>
-          </th>
-        </tr>
-        <tr>
-          <!--  -->
-          <td>
-            <p><code><a href="mens400.html">mens400</a></code> </p>
-          </td>
-          <td><p>Winning times in Olympic men's 400m track final. 1896-2016.</p></td>
-        </tr>
-      </tbody><tbody>
-        <tr>
-          <th colspan="2">
-            <h2 id="section-annual-data" class="hasAnchor"><a href="#section-annual-data" class="anchor"></a>Annual Data</h2>
-            <p class="section-desc"><p>Data recorded every year</p></p>
-          </th>
-        </tr>
-        <tr>
-          <!--  -->
-          <td>
-            <p><code><a href="ausair.html">ausair</a></code> </p>
-          </td>
-          <td><p>Air Transport Passengers Australia</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="austa.html">austa</a></code> </p>
-          </td>
-          <td><p>International visitors to Australia</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="elecsales.html">elecsales</a></code> </p>
-          </td>
-          <td><p>Electricity sales to residential customers in South Australia.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="livestock.html">livestock</a></code> </p>
-          </td>
-          <td><p>Livestock (sheep) in Asia, 1961-2007.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="marathon.html">marathon</a></code> </p>
-          </td>
-          <td><p>Boston marathon winning times since 1897</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="maxtemp.html">maxtemp</a></code> </p>
-          </td>
-          <td><p>Maximum annual temperatures at Moorabbin Airport, Melbourne</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="oil.html">oil</a></code> </p>
-          </td>
-          <td><p>Annual oil production in Saudi Arabia</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="sunspotarea.html">sunspotarea</a></code> </p>
-          </td>
-          <td><p>Annual average sunspot area (1875-2015)</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="wmurders.html">wmurders</a></code> </p>
-          </td>
-          <td><p>Annual female murder rate (per 100,000 standard population) in the USA.
+    <tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-super-annual-data" class="hasAnchor"><a href="#section-super-annual-data" class="anchor"></a>Super-Annual Data</h2>
+          <p class="section-desc"><p>Data recorded at intervals greater than one year</p></p>
+        </th>
+      </tr>
+      <tr>
+        
+        <td>
+          <p><code><a href="mens400.html">mens400</a></code> </p>
+        </td>
+        <td><p>Winning times in Olympic men's 400m track final. 1896-2016.</p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-annual-data" class="hasAnchor"><a href="#section-annual-data" class="anchor"></a>Annual Data</h2>
+          <p class="section-desc"><p>Data recorded every year</p></p>
+        </th>
+      </tr>
+      <tr>
+        
+        <td>
+          <p><code><a href="ausair.html">ausair</a></code> </p>
+        </td>
+        <td><p>Air Transport Passengers Australia</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="austa.html">austa</a></code> </p>
+        </td>
+        <td><p>International visitors to Australia</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="elecsales.html">elecsales</a></code> </p>
+        </td>
+        <td><p>Electricity sales to residential customers in South Australia.</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="livestock.html">livestock</a></code> </p>
+        </td>
+        <td><p>Livestock (sheep) in Asia, 1961-2007.</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="marathon.html">marathon</a></code> </p>
+        </td>
+        <td><p>Boston marathon winning times since 1897</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="maxtemp.html">maxtemp</a></code> </p>
+        </td>
+        <td><p>Maximum annual temperatures at Moorabbin Airport, Melbourne</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="oil.html">oil</a></code> </p>
+        </td>
+        <td><p>Annual oil production in Saudi Arabia</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="sunspotarea.html">sunspotarea</a></code> </p>
+        </td>
+        <td><p>Annual average sunspot area (1875-2015)</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="wmurders.html">wmurders</a></code> </p>
+        </td>
+        <td><p>Annual female murder rate (per 100,000 standard population) in the USA.
 1950-2004.</p></td>
-        </tr>
-      </tbody><tbody>
-        <tr>
-          <th colspan="2">
-            <h2 id="section-quarterly-data" class="hasAnchor"><a href="#section-quarterly-data" class="anchor"></a>Quarterly Data</h2>
-            <p class="section-desc"><p>Data recorded every quarter</p></p>
-          </th>
-        </tr>
-        <tr>
-          <!--  -->
-          <td>
-            <p><code><a href="arrivals.html">arrivals</a></code> </p>
-          </td>
-          <td><p>International Arrivals to Australia</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="ausbeer.html">ausbeer</a></code> </p>
-          </td>
-          <td><p>Quarterly Australian Beer production</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="austourists.html">austourists</a></code> </p>
-          </td>
-          <td><p>International Tourists to Australia: Total visitor nights.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="euretail.html">euretail</a></code> </p>
-          </td>
-          <td><p>Quarterly retail trade: Euro area.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="guinearice.html">guinearice</a></code> </p>
-          </td>
-          <td><p>Rice production (Guinea)</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="prison.html">prison</a></code> </p>
-          </td>
-          <td><p>prison</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="qauselec.html">qauselec</a></code> </p>
-          </td>
-          <td><p>Quarterly Australian Electricity production</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="qcement.html">qcement</a></code> </p>
-          </td>
-          <td><p>Quarterly Australian Portland Cement production</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="qgas.html">qgas</a></code> </p>
-          </td>
-          <td><p>Quarterly Australian Gas Production</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="uschange.html">uschange</a></code> </p>
-          </td>
-          <td><p>Growth rates of personal consumption and personal income in the USA.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="visnights.html">visnights</a></code> </p>
-          </td>
-          <td><p>Quarterly visitor nights for various regions of Australia.</p></td>
-        </tr>
-      </tbody><tbody>
-        <tr>
-          <th colspan="2">
-            <h2 id="section-monthly-data" class="hasAnchor"><a href="#section-monthly-data" class="anchor"></a>Monthly Data</h2>
-            <p class="section-desc"><p>Data recorded every month</p></p>
-          </th>
-        </tr>
-        <tr>
-          <!--  -->
-          <td>
-            <p><code><a href="a10.html">a10</a></code> </p>
-          </td>
-          <td><p>Monthly anti-diabetic drug sales in Australia from 1991 to 2008.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="auscafe.html">auscafe</a></code> </p>
-          </td>
-          <td><p>Monthly expenditure on eating out in Australia</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="debitcards.html">debitcards</a></code> </p>
-          </td>
-          <td><p>Retail debit card usage in Iceland.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="departures.html">departures</a></code> </p>
-          </td>
-          <td><p>Total monthly departures from Australia</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="elecequip.html">elecequip</a></code> </p>
-          </td>
-          <td><p>Electrical equipment manufactured in the Euro area.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="h02.html">h02</a></code> </p>
-          </td>
-          <td><p>Monthly corticosteroid drug sales in Australia from July 1991 to June 2008.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="insurance.html">insurance</a></code> </p>
-          </td>
-          <td><p>Insurance quotations and advertising expenditure.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="usmelec.html">usmelec</a></code> </p>
-          </td>
-          <td><p>Electricity monthly total net generation. January 1973 - June 2013.</p></td>
-        </tr>
-      </tbody><tbody>
-        <tr>
-          <th colspan="2">
-            <h2 id="section-weekly-data" class="hasAnchor"><a href="#section-weekly-data" class="anchor"></a>Weekly Data</h2>
-            <p class="section-desc"><p>Data recorded every week</p></p>
-          </th>
-        </tr>
-        <tr>
-          <!--  -->
-          <td>
-            <p><code><a href="gasoline.html">gasoline</a></code> </p>
-          </td>
-          <td><p>US finished motor gasoline product supplied.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="melsyd.html">melsyd</a></code> </p>
-          </td>
-          <td><p>Total weekly air passenger numbers on Ansett airline flights between
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-quarterly-data" class="hasAnchor"><a href="#section-quarterly-data" class="anchor"></a>Quarterly Data</h2>
+          <p class="section-desc"><p>Data recorded every quarter</p></p>
+        </th>
+      </tr>
+      <tr>
+        
+        <td>
+          <p><code><a href="arrivals.html">arrivals</a></code> </p>
+        </td>
+        <td><p>International Arrivals to Australia</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="ausbeer.html">ausbeer</a></code> </p>
+        </td>
+        <td><p>Quarterly Australian Beer production</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="austourists.html">austourists</a></code> </p>
+        </td>
+        <td><p>International Tourists to Australia: Total visitor nights.</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="euretail.html">euretail</a></code> </p>
+        </td>
+        <td><p>Quarterly retail trade: Euro area.</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="guinearice.html">guinearice</a></code> </p>
+        </td>
+        <td><p>Rice production (Guinea)</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="prison.html">prison</a></code> </p>
+        </td>
+        <td><p>prison</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="qauselec.html">qauselec</a></code> </p>
+        </td>
+        <td><p>Quarterly Australian Electricity production</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="qcement.html">qcement</a></code> </p>
+        </td>
+        <td><p>Quarterly Australian Portland Cement production</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="qgas.html">qgas</a></code> </p>
+        </td>
+        <td><p>Quarterly Australian Gas Production</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="uschange.html">uschange</a></code> </p>
+        </td>
+        <td><p>Growth rates of personal consumption and personal income in the USA.</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="visnights.html">visnights</a></code> </p>
+        </td>
+        <td><p>Quarterly visitor nights for various regions of Australia.</p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-monthly-data" class="hasAnchor"><a href="#section-monthly-data" class="anchor"></a>Monthly Data</h2>
+          <p class="section-desc"><p>Data recorded every month</p></p>
+        </th>
+      </tr>
+      <tr>
+        
+        <td>
+          <p><code><a href="a10.html">a10</a></code> </p>
+        </td>
+        <td><p>Monthly anti-diabetic drug subsidy in Australia from 1991 to 2008.</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="auscafe.html">auscafe</a></code> </p>
+        </td>
+        <td><p>Monthly expenditure on eating out in Australia</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="debitcards.html">debitcards</a></code> </p>
+        </td>
+        <td><p>Retail debit card usage in Iceland.</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="departures.html">departures</a></code> </p>
+        </td>
+        <td><p>Total monthly departures from Australia</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="elecequip.html">elecequip</a></code> </p>
+        </td>
+        <td><p>Electrical equipment manufactured in the Euro area.</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="h02.html">h02</a></code> </p>
+        </td>
+        <td><p>Monthly corticosteroid drug sales in Australia from July 1991 to June 2008.</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="insurance.html">insurance</a></code> </p>
+        </td>
+        <td><p>Insurance quotations and advertising expenditure.</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="usmelec.html">usmelec</a></code> </p>
+        </td>
+        <td><p>Electricity monthly total net generation. January 1973 - June 2013.</p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-weekly-data" class="hasAnchor"><a href="#section-weekly-data" class="anchor"></a>Weekly Data</h2>
+          <p class="section-desc"><p>Data recorded every week</p></p>
+        </th>
+      </tr>
+      <tr>
+        
+        <td>
+          <p><code><a href="gasoline.html">gasoline</a></code> </p>
+        </td>
+        <td><p>US finished motor gasoline product supplied.</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="melsyd.html">melsyd</a></code> </p>
+        </td>
+        <td><p>Total weekly air passenger numbers on Ansett airline flights between
 Melbourne and Sydney, 1987--1992.</p></td>
-        </tr>
-      </tbody><tbody>
-        <tr>
-          <th colspan="2">
-            <h2 id="section-daily-data" class="hasAnchor"><a href="#section-daily-data" class="anchor"></a>Daily Data</h2>
-            <p class="section-desc"><p>Data recorded every day</p></p>
-          </th>
-        </tr>
-        <tr>
-          <!--  -->
-          <td>
-            <p><code><a href="elecdemand.html">elecdemand</a></code> </p>
-          </td>
-          <td><p>Half-hourly and daily electricity demand for Victoria, Australia, in 2014</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="goog.html">goog</a></code> </p>
-          </td>
-          <td><p>Daily closing stock prices of Google Inc</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="hyndsight.html">hyndsight</a></code> </p>
-          </td>
-          <td><p>Daily pageviews for the Hyndsight blog. 30 April 2014 to 29 April 2015.</p></td>
-        </tr>
-      </tbody><tbody>
-        <tr>
-          <th colspan="2">
-            <h2 id="section-half-hourly-data" class="hasAnchor"><a href="#section-half-hourly-data" class="anchor"></a>Half-hourly Data</h2>
-            <p class="section-desc"><p>Data recorded every 30 minutes</p></p>
-          </th>
-        </tr>
-        <tr>
-          <!--  -->
-          <td>
-            <p><code><a href="elecdemand.html">elecdemand</a></code> </p>
-          </td>
-          <td><p>Half-hourly and daily electricity demand for Victoria, Australia, in 2014</p></td>
-        </tr>
-      </tbody><tbody>
-        <tr>
-          <th colspan="2">
-            <h2 id="section-five-minute-data" class="hasAnchor"><a href="#section-five-minute-data" class="anchor"></a>Five-Minute Data</h2>
-            <p class="section-desc"><p>Data recorded every 5 minutes</p></p>
-          </th>
-        </tr>
-        <tr>
-          <!--  -->
-          <td>
-            <p><code><a href="calls.html">calls</a></code> </p>
-          </td>
-          <td><p>Call volume for a large North American bank</p></td>
-        </tr>
-      </tbody>
-      </table>
-    </div>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-daily-data" class="hasAnchor"><a href="#section-daily-data" class="anchor"></a>Daily Data</h2>
+          <p class="section-desc"><p>Data recorded every day</p></p>
+        </th>
+      </tr>
+      <tr>
+        
+        <td>
+          <p><code><a href="elecdemand.html">elecdemand</a></code> </p>
+        </td>
+        <td><p>Half-hourly and daily electricity demand for Victoria, Australia, in 2014</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="goog.html">goog</a></code> </p>
+        </td>
+        <td><p>Daily closing stock prices of Google Inc</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="hyndsight.html">hyndsight</a></code> </p>
+        </td>
+        <td><p>Daily pageviews for the Hyndsight blog. 30 April 2014 to 29 April 2015.</p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-half-hourly-data" class="hasAnchor"><a href="#section-half-hourly-data" class="anchor"></a>Half-hourly Data</h2>
+          <p class="section-desc"><p>Data recorded every 30 minutes</p></p>
+        </th>
+      </tr>
+      <tr>
+        
+        <td>
+          <p><code><a href="elecdemand.html">elecdemand</a></code> </p>
+        </td>
+        <td><p>Half-hourly and daily electricity demand for Victoria, Australia, in 2014</p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-five-minute-data" class="hasAnchor"><a href="#section-five-minute-data" class="anchor"></a>Five-Minute Data</h2>
+          <p class="section-desc"><p>Data recorded every 5 minutes</p></p>
+        </th>
+      </tr>
+      <tr>
+        
+        <td>
+          <p><code><a href="calls.html">calls</a></code> </p>
+        </td>
+        <td><p>Call volume for a large North American bank</p></td>
+      </tr>
+    </tbody>
+    </table>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
@@ -407,6 +414,8 @@ Melbourne and Sydney, 1987--1992.</p></td>
 
       </footer>
    </div>
+
+  
 
   </body>
 </html>

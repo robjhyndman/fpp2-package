@@ -21,12 +21,15 @@
 <!-- clipboard.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js" integrity="sha384-cV+rhyOuRHc9Ub/91rihWcGmMmCXDeksTtCihMupQHSsi8GIIRDG0ThDc3HGQFJ3" crossorigin="anonymous"></script>
 
+<!-- sticky kit -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" integrity="sha256-c4Rlo1ZozqTPE2RLuvbusY3+SU1pQaJC0TjuhygMipw=" crossorigin="anonymous"></script>
+
 <!-- pkgdown -->
 <link href="../pkgdown.css" rel="stylesheet">
-<script src="../jquery.sticky-kit.min.js"></script>
 <script src="../pkgdown.js"></script>
-  
-  
+
+
+
 <meta property="og:title" content="Daily pageviews for the Hyndsight blog. 30 April 2014 to 29 April 2015. — hyndsight" />
 
 <meta property="og:description" content="Hyndsight is Rob Hyndman's personal blog at
@@ -34,6 +37,9 @@ http://robjhyndman.com/hyndsight. This series contains the daily
 pageviews for one year, beginning 30 April 2014. The frequency is set to 7,
 to allow the weekly pattern to be modelled." />
 <meta name="twitter:card" content="summary" />
+
+
+
 <!-- mathjax -->
 <script src='https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
@@ -56,8 +62,12 @@ to allow the weekly pattern to be modelled." />
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="../index.html">fpp2</a>
+      <span class="navbar-brand">
+        <a class="navbar-link" href="../index.html">fpp2</a>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">2.3</span>
+      </span>
     </div>
+
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
@@ -76,6 +86,7 @@ to allow the weekly pattern to be modelled." />
   </a>
 </li>
       </ul>
+      
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
@@ -83,18 +94,22 @@ to allow the weekly pattern to be modelled." />
       
       </header>
 
-      <div class="row">
+<div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1>Daily pageviews for the Hyndsight blog. 30 April 2014 to 29 April 2015.</h1>
+    <small class="dont-index">Source: <a href='https://github.com/robjhyndman/fpp2-package/blob/master/R/fpp-package.R'><code>R/fpp-package.R</code></a></small>
+    <div class="hidden name"><code>hyndsight.Rd</code></div>
     </div>
 
+    <div class="ref-description">
     
     <p>Hyndsight is Rob Hyndman's personal blog at
 <a href='http://robjhyndman.com/hyndsight'>http://robjhyndman.com/hyndsight</a>. This series contains the daily
 pageviews for one year, beginning 30 April 2014. The frequency is set to 7,
 to allow the weekly pattern to be modelled.</p>
     
+    </div>
 
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
@@ -108,7 +123,7 @@ to allow the weekly pattern to be modelled.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'>
-<span class='fu'>autoplot</span>(<span class='no'>hyndsight</span>, <span class='kw'>xlab</span><span class='kw'>=</span><span class='st'>"Weeks"</span>)</div><div class='img'><img src='hyndsight-1.png' alt='' width='700' height='432.632880098887' /></div><div class='input'>
+<span class='fu'>autoplot</span>(<span class='no'>hyndsight</span>, <span class='kw'>xlab</span><span class='kw'>=</span><span class='st'>"Weeks"</span>)</div><div class='img'><img src='hyndsight-1.png' alt='' width='700' height='433' /></div><div class='input'>
 </div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
@@ -136,6 +151,8 @@ to allow the weekly pattern to be modelled.</p>
 
       </footer>
    </div>
+
+  
 
   </body>
 </html>

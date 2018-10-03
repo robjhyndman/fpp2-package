@@ -21,16 +21,22 @@
 <!-- clipboard.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js" integrity="sha384-cV+rhyOuRHc9Ub/91rihWcGmMmCXDeksTtCihMupQHSsi8GIIRDG0ThDc3HGQFJ3" crossorigin="anonymous"></script>
 
+<!-- sticky kit -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" integrity="sha256-c4Rlo1ZozqTPE2RLuvbusY3+SU1pQaJC0TjuhygMipw=" crossorigin="anonymous"></script>
+
 <!-- pkgdown -->
 <link href="../pkgdown.css" rel="stylesheet">
-<script src="../jquery.sticky-kit.min.js"></script>
 <script src="../pkgdown.js"></script>
-  
-  
+
+
+
 <meta property="og:title" content="prison — prison" />
 
 <meta property="og:description" content="prison" />
 <meta name="twitter:card" content="summary" />
+
+
+
 <!-- mathjax -->
 <script src='https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
@@ -53,8 +59,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="../index.html">fpp2</a>
+      <span class="navbar-brand">
+        <a class="navbar-link" href="../index.html">fpp2</a>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">2.3</span>
+      </span>
     </div>
+
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
@@ -73,6 +83,7 @@
   </a>
 </li>
       </ul>
+      
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
@@ -80,15 +91,19 @@
       
       </header>
 
-      <div class="row">
+<div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1>prison</h1>
+    <small class="dont-index">Source: <a href='https://github.com/robjhyndman/fpp2-package/blob/master/R/fpp-package.R'><code>R/fpp-package.R</code></a></small>
+    <div class="hidden name"><code>prison.Rd</code></div>
     </div>
 
+    <div class="ref-description">
     
     <p>prison</p>
     
+    </div>
 
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
@@ -100,15 +115,15 @@ class <code>data.frame</code>, while <code>prison</code> is in wide form and of 
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'>
-<span class='fu'>autoplot</span>(<span class='no'>prison</span>)</div><div class='img'><img src='prison-1.png' alt='' width='700' height='432.632880098887' /></div><div class='input'><span class='fu'>head</span>(<span class='no'>prisonLF</span>)</div><div class='output co'>#&gt; # A tibble: 6 x 5
+<span class='fu'>autoplot</span>(<span class='no'>prison</span>)</div><div class='img'><img src='prison-1.png' alt='' width='700' height='433' /></div><div class='input'><span class='fu'>head</span>(<span class='no'>prisonLF</span>)</div><div class='output co'>#&gt; # A tibble: 6 x 5
 #&gt;   state gender legal    t          count
 #&gt;   &lt;fct&gt; &lt;fct&gt;  &lt;fct&gt;    &lt;date&gt;     &lt;dbl&gt;
-#&gt; 1 ACT   Female Remanded 2005-03-01    2.
-#&gt; 2 ACT   Female Remanded 2005-06-01    4.
-#&gt; 3 ACT   Female Remanded 2005-09-01    1.
-#&gt; 4 ACT   Female Remanded 2005-12-01    4.
-#&gt; 5 ACT   Female Remanded 2006-03-01    4.
-#&gt; 6 ACT   Female Remanded 2006-06-01    6.</div><div class='input'>
+#&gt; 1 ACT   Female Remanded 2005-03-01     2
+#&gt; 2 ACT   Female Remanded 2005-06-01     4
+#&gt; 3 ACT   Female Remanded 2005-09-01     1
+#&gt; 4 ACT   Female Remanded 2005-12-01     4
+#&gt; 5 ACT   Female Remanded 2006-03-01     4
+#&gt; 6 ACT   Female Remanded 2006-06-01     6</div><div class='input'>
 </div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
@@ -134,6 +149,8 @@ class <code>data.frame</code>, while <code>prison</code> is in wide form and of 
 
       </footer>
    </div>
+
+  
 
   </body>
 </html>

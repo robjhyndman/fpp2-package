@@ -21,12 +21,15 @@
 <!-- clipboard.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js" integrity="sha384-cV+rhyOuRHc9Ub/91rihWcGmMmCXDeksTtCihMupQHSsi8GIIRDG0ThDc3HGQFJ3" crossorigin="anonymous"></script>
 
+<!-- sticky kit -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" integrity="sha256-c4Rlo1ZozqTPE2RLuvbusY3+SU1pQaJC0TjuhygMipw=" crossorigin="anonymous"></script>
+
 <!-- pkgdown -->
 <link href="../pkgdown.css" rel="stylesheet">
-<script src="../jquery.sticky-kit.min.js"></script>
 <script src="../pkgdown.js"></script>
-  
-  
+
+
+
 <meta property="og:title" content="Annual average sunspot area (1875-2015) — sunspotarea" />
 
 <meta property="og:description" content="Annual averages of the daily sunspot areas (in units of millionths of a
@@ -37,6 +40,9 @@ from the US Air Force and the US National Oceanic and Atmospheric
 Administration. The data have been calibrated to be consistent across the
 whole history of observations." />
 <meta name="twitter:card" content="summary" />
+
+
+
 <!-- mathjax -->
 <script src='https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
@@ -59,8 +65,12 @@ whole history of observations." />
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="../index.html">fpp2</a>
+      <span class="navbar-brand">
+        <a class="navbar-link" href="../index.html">fpp2</a>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">2.3</span>
+      </span>
     </div>
+
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
@@ -79,6 +89,7 @@ whole history of observations." />
   </a>
 </li>
       </ul>
+      
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
@@ -86,12 +97,15 @@ whole history of observations." />
       
       </header>
 
-      <div class="row">
+<div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1>Annual average sunspot area (1875-2015)</h1>
+    <small class="dont-index">Source: <a href='https://github.com/robjhyndman/fpp2-package/blob/master/R/fpp-package.R'><code>R/fpp-package.R</code></a></small>
+    <div class="hidden name"><code>sunspotarea.Rd</code></div>
     </div>
 
+    <div class="ref-description">
     
     <p>Annual averages of the daily sunspot areas (in units of millionths of a
 hemisphere) for the full sun. Sunspots are magnetic regions that appear as
@@ -101,6 +115,7 @@ from the US Air Force and the US National Oceanic and Atmospheric
 Administration. The data have been calibrated to be consistent across the
 whole history of observations.</p>
     
+    </div>
 
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
@@ -114,7 +129,7 @@ whole history of observations.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'>
-<span class='fu'>autoplot</span>(<span class='no'>sunspotarea</span>)</div><div class='img'><img src='sunspotarea-1.png' alt='' width='700' height='432.632880098887' /></div><div class='input'>
+<span class='fu'>autoplot</span>(<span class='no'>sunspotarea</span>)</div><div class='img'><img src='sunspotarea-1.png' alt='' width='700' height='433' /></div><div class='input'>
 </div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
@@ -142,6 +157,8 @@ whole history of observations.</p>
 
       </footer>
    </div>
+
+  
 
   </body>
 </html>
