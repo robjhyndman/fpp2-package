@@ -42,7 +42,7 @@ demand <- msts(
 plot(demand)
 table(demand[, 2]) / 48
 elecdemand <- demand
-devtools::use_data(elecdemand, overwrite = TRUE)
+usethis::use_data(elecdemand, overwrite = TRUE)
 
 # elecdaily
 elecdaily <- cbind(
@@ -51,5 +51,5 @@ elecdaily <- cbind(
   aggregate.ts(elecdemand[, c("Temperature")], nfrequency = 365, max)
 )
 colnames(elecdaily) <- c("Demand", "WorkDay", "Temperature")
-elecdaily <- ts(elecdaily, frequency = 7)
-devtools::use_data(elecdaily, overwrite = TRUE)
+elecdaily <- ts(elecdaily, start = c(1,4), frequency = 7)
+usethis::use_data(elecdaily, overwrite = TRUE)
