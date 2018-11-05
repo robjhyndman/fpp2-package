@@ -80,14 +80,14 @@ devtools::use_data(austourists, overwrite = TRUE)
 
 #### calls
 # Number of calls handled on weekdays between 7:00 am and 9:05 pm
-# Five-minute call volume from March 3, 2003, to May 23, 2003
+# Five-minute call volume from March 3, 2003
 # in a large North American commercial bank.
 calls <- unlist(read.csv(
   "http://robjhyndman.com/data/callcenter.txt",
   header = TRUE, sep = "\t"
 )[, -1])
 calls <- msts(calls, start = 1, seasonal.periods = c(169, 169 * 5))
-devtools::use_data(calls, overwrite = TRUE)
+usethis::use_data(calls, overwrite = TRUE)
 
 #### debitcards
 dminit("c98bb1e36069456280dedf1a6211f07e")
