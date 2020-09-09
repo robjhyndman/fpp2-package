@@ -45,7 +45,7 @@ NULL
 #' @name ausair
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source World Bank. \url{http://data.is/x5KiEO}
+#' @source World Bank.
 #' @keywords datasets
 #' @examples
 #'
@@ -147,7 +147,7 @@ NULL
 #' @name debitcards
 #' @docType data
 #' @format Monthly time series of class \code{ts}.
-#' @source Statistics Iceland. \url{http://data.is/HFzL69}
+#' @source Statistics Iceland.
 #' @keywords datasets
 #' @examples
 #'
@@ -240,7 +240,7 @@ NULL
 #' @name elecequip
 #' @docType data
 #' @format Time series object of class \code{ts}.
-#' @source Eurostat. \url{http://data.is/y6dO8i}
+#' @source Eurostat.
 #' @keywords datasets
 #' @examples
 #'
@@ -275,7 +275,7 @@ NULL
 #' @name euretail
 #' @docType data
 #' @format Quarterly time series of class \code{ts}.
-#' @source Eurostat. \url{http://data.is/IdKyZr}
+#' @source Eurostat.
 #' @keywords datasets
 #' @examples
 #'
@@ -330,7 +330,7 @@ NULL
 #' @name guinearice
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source World Bank. \url{http://data.is/whKD8H}
+#' @source World Bank.
 #' @keywords datasets
 #' @examples
 #'
@@ -361,7 +361,7 @@ NULL
 #' Daily pageviews for the Hyndsight blog. 30 April 2014 to 29 April 2015.
 #'
 #' Hyndsight is Rob Hyndman's personal blog at
-#' \url{http://robjhyndman.com/hyndsight}. This series contains the daily
+#' \url{http://robjhyndman.com/hyndsight/}. This series contains the daily
 #' pageviews for one year, beginning 30 April 2014. The frequency is set to 7,
 #' to allow the weekly pattern to be modelled.
 #'
@@ -402,7 +402,7 @@ NULL
 #' @name livestock
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source United Nations. \url{http://data.is/GFxwQi}
+#' @source United Nations.
 #' @keywords datasets
 #' @examples
 #'
@@ -473,7 +473,7 @@ NULL
 #' @name oil
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source BP. \url{http://data.is/GEOHU3}
+#' @source BP.
 #' @keywords datasets
 #' @examples
 #'
@@ -565,8 +565,7 @@ NULL
 #' @aliases usconsumption uschange
 #' @docType data
 #' @format Time series object of class \code{ts}.
-#' @source Federal Reserve Bank of St Louis. \url{http://data.is/AnVtzB}.
-#' \url{http://data.is/wQPcjU}.
+#' @source Federal Reserve Bank of St Louis.
 #' @keywords datasets
 #' @examples
 #'
@@ -582,7 +581,7 @@ NULL
 #' @name usmelec
 #' @docType data
 #' @format Time series object of class \code{ts}.
-#' @source US Energy Information Administration. \url{http://data.is/zgRWCO}.
+#' @source US Energy Information Administration.
 #' @keywords datasets
 #' @examples
 #'
@@ -617,7 +616,7 @@ NULL
 #' @name wmurders
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source Gapminder Foundation. \url{http://data.is/XKa24F}
+#' @source Gapminder Foundation.
 #' @keywords datasets
 #' @examples
 #'
