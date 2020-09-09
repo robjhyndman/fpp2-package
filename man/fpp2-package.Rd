@@ -8,13 +8,13 @@
 \description{
 All data sets required for the examples and exercises
   in the book "Forecasting: principles and practice" (2nd ed, 2018)
-  by Rob J Hyndman and George Athanasopoulos <http://otexts.com/fpp2/>.
+  by Rob J Hyndman and George Athanasopoulos <https://otexts.com/fpp2/>.
   All packages required to run the examples are also loaded.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{http://pkg.robjhyndman.com/fpp2-package/}
+  \item \url{https://pkg.robjhyndman.com/fpp2-package/}
   \item \url{https://github.com/robjhyndman/fpp2-package}
   \item \url{https://otexts.com/fpp2/}
   \item Report bugs at \url{https://github.com/robjhyndman/fpp2-package/issues}

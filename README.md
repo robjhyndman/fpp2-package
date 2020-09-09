@@ -16,7 +16,7 @@ status](https://github.com/robjhyndman/fpp2-package/workflows/R-CMD-check/badge.
 
 The R package *fpp2* loads data required for the examples and exercises
 used in the book [*Forecasting: Principles and Practice* (2nd
-edition)](https://otexts.com/fpp2) by Rob J Hyndman and George
+edition)](https://otexts.com/fpp2/) by Rob J Hyndman and George
 Athanasopoulos. It also loads several packages needed to do the analysis
 described in the book.
 

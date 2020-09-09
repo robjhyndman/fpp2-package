@@ -21,7 +21,7 @@ knitr::opts_chunk$set(
 
 ## Overview
 
-The R package *fpp2* loads data required for the examples and exercises used in the book [*Forecasting: Principles and Practice* (2nd edition)](https://otexts.com/fpp2) by Rob J Hyndman and George Athanasopoulos. It also loads several packages needed to do the analysis described in the book.
+The R package *fpp2* loads data required for the examples and exercises used in the book [*Forecasting: Principles and Practice* (2nd edition)](https://otexts.com/fpp2/) by Rob J Hyndman and George Athanasopoulos. It also loads several packages needed to do the analysis described in the book.
 
 ## Installation
 
