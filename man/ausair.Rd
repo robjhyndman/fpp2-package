@@ -8,7 +8,7 @@
 Annual time series of class \code{ts}.
 }
 \source{
-World Bank. \url{http://data.is/x5KiEO}
+World Bank.
 }
 \description{
 Total annual air passengers (in millions) including domestic and

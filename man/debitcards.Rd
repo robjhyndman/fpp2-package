@@ -8,7 +8,7 @@
 Monthly time series of class \code{ts}.
 }
 \source{
-Statistics Iceland. \url{http://data.is/HFzL69}
+Statistics Iceland.
 }
 \description{
 Monthly retail debit card usage in Iceland (million ISK). January 2000 -

@@ -8,7 +8,7 @@
 Quarterly time series of class \code{ts}.
 }
 \source{
-Eurostat. \url{http://data.is/IdKyZr}
+Eurostat.
 }
 \description{
 Quarterly retail trade index in the Euro area (17 countries), 1996-2011,

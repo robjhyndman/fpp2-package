@@ -12,7 +12,7 @@ Rob Hyndman
 }
 \description{
 Hyndsight is Rob Hyndman's personal blog at
-\url{http://robjhyndman.com/hyndsight}. This series contains the daily
+\url{http://robjhyndman.com/hyndsight/}. This series contains the daily
 pageviews for one year, beginning 30 April 2014. The frequency is set to 7,
 to allow the weekly pattern to be modelled.
 }

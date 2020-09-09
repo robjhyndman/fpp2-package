@@ -9,8 +9,7 @@
 Time series object of class \code{ts}.
 }
 \source{
-Federal Reserve Bank of St Louis. \url{http://data.is/AnVtzB}.
-\url{http://data.is/wQPcjU}.
+Federal Reserve Bank of St Louis.
 }
 \description{
 Percentage changes in quarterly personal consumption expenditure, personal

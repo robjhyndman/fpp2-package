@@ -8,7 +8,7 @@
 Annual time series of class \code{ts}.
 }
 \source{
-United Nations. \url{http://data.is/GFxwQi}
+United Nations.
 }
 \description{
 Annual sheep livestock numbers in Asia (in million head).

@@ -8,7 +8,7 @@
 Time series object of class \code{ts}.
 }
 \source{
-US Energy Information Administration. \url{http://data.is/zgRWCO}.
+US Energy Information Administration.
 }
 \description{
 Electricity net generation measured in billions of kilowatt hours (kWh).
