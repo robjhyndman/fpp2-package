@@ -71,20 +71,49 @@
 <a href="#fpp2" class="anchor"></a>fpp2</h1></div>
 <!-- badges: start -->
 
-<p>The R package <em>fpp2</em> contains all data sets required for the examples and exercises in the book “Forecasting: principles and practice” by Rob J Hyndman and George Athanasopoulos (<a href="http://OTexts.org/fpp2/" class="uri">http://OTexts.org/fpp2/</a>). All packages required to run the examples are also loaded.</p>
+<div id="overview" class="section level2">
+<h2 class="hasAnchor">
+<a href="#overview" class="anchor"></a>Overview</h2>
+<p>The R package <em>fpp2</em> loads data required for the examples and exercises used in the book <a href="https://OTexts.com/fpp2"><em>Forecasting: Principles and Practice</em> (2nd edition)</a> by Rob J Hyndman and George Athanasopoulos. It also loads several packages needed to do the analysis described in the book.</p>
+</div>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
-<p>You can install the <strong>stable</strong> version on <a href="https://cran.r-project.org/package=fpp2">R CRAN</a>.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode s"><code class="sourceCode gnuassembler"><span id="cb1-1"><a href="#cb1-1"></a>install.packages(<span class="ch">'f</span>pp2<span class="ch">',</span> dependencies = TRUE)</span></code></pre></div>
+<p>You can install the <strong>stable</strong> version from <a href="https://cran.r-project.org/package=fpp2">CRAN</a>.</p>
+<div class="sourceCode" id="cb1"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">'fpp2'</span>, dependencies = <span class="fl">TRUE</span>)
+</pre></div>
 <p>You can install the <strong>development</strong> version from <a href="https://github.com/robjhyndman/fpp2-package">Github</a></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode s"><code class="sourceCode gnuassembler"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># install.packages("devtools")</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="kw">devtools::</span>install_github(<span class="st">"robjhyndman/fpp2-package"</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="downlit">
+<span class="co"># install.packages("remotes")</span>
+<span class="kw">remotes</span>::<span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span>(<span class="st">"robjhyndman/fpp2-package"</span>)
+</pre></div>
 </div>
-<div id="license" class="section level2">
+<div id="usage" class="section level2">
 <h2 class="hasAnchor">
-<a href="#license" class="anchor"></a>License</h2>
-<p>This package is free and open source software, licensed under GPL (&gt;= 3).</p>
+<a href="#usage" class="anchor"></a>Usage</h2>
+<p><code><a href="http://pkg.robjhyndman.com/fpp2-package">library(fpp2)</a></code> will load the following packages:</p>
+<ul>
+<li>
+<a href="https://pkg.robjhyndman.com/forecast">forecast</a>, for forecasting methods and some data sets.</li>
+<li>
+<a href="https://ggplot2.tidyverse.org">ggplot2</a>, for data visualisation.</li>
+<li>
+<a href="https://pkg.robjhyndman.com/fma">fma</a>, for data taken from the book “Forecasting: methods and applications” by Makridakis, Wheelwright and Hyndman (1998).</li>
+<li>
+<a href="https://pkg.robjhyndman.com/expsmooth">expsmooth</a>, for data taken from the book “Forecasting with Exponential Smoothing” by Hyndman, Koehler, Ord and Snyder (2008).</li>
+</ul>
+<p>You also get a condensed summary of conflicts with other packages you have loaded:</p>
+<div class="sourceCode" id="cb3"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="kw"><a href="http://pkg.robjhyndman.com/fpp2-package">fpp2</a></span>)
+<span class="co">#&gt; Registered S3 method overwritten by 'quantmod':</span>
+<span class="co">#&gt;   method            from</span>
+<span class="co">#&gt;   as.zoo.data.frame zoo</span>
+<span class="co">#&gt; ── Attaching packages ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── fpp2 2.4 ──</span>
+<span class="co">#&gt; ✓ ggplot2   3.3.2           ✓ fma       2.4        </span>
+<span class="co">#&gt; ✓ forecast  8.12.0.9000     ✓ expsmooth 2.4</span>
+<span class="co">#&gt; </span>
+</pre></div>
 </div>
 </div>
   </div>
@@ -119,8 +148,8 @@
   <div class="dev-status">
 <h2>Dev status</h2>
 <ul class="list-unstyled">
+<li><a href="https://cran.r-project.org/package=fpp2"><img src="https://www.r-pkg.org/badges/version/fpp2" alt="CRAN status"></a></li>
 <li><a href="https://github.com/robjhyndman/fpp2-package/actions"><img src="https://github.com/robjhyndman/fpp2-package/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
-<li><a href="https://cran.r-project.org/package=fpp2"><img src="http://www.r-pkg.org/badges/version/fpp2" alt="CRAN_Status_Badge"></a></li>
 <li><a href="https://cran.r-project.org/package=fpp2"><img src="http://cranlogs.r-pkg.org/badges/fpp2" alt="Downloads"></a></li>
 </ul>
 </div>
