@@ -5,7 +5,9 @@
 \alias{goog}
 \alias{goog200}
 \title{Daily closing stock prices of Google Inc}
-\format{Daily time series of class \code{ts}.}
+\format{
+Daily time series of class \code{ts}.
+}
 \source{
 \url{https://goo.gl/5KBjL5}
 }

@@ -4,7 +4,9 @@
 \name{austourists}
 \alias{austourists}
 \title{International Tourists to Australia: Total visitor nights.}
-\format{Quarterly time series of class \code{ts}.}
+\format{
+Quarterly time series of class \code{ts}.
+}
 \source{
 Tourism Research Australia.
 }

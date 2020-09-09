@@ -5,7 +5,9 @@
 \alias{melsyd}
 \title{Total weekly air passenger numbers on Ansett airline flights between
 Melbourne and Sydney, 1987--1992.}
-\format{Multiple time series of class \code{mts}.}
+\format{
+Multiple time series of class \code{mts}.
+}
 \source{
 Ansett Airlines (which no longer exists).
 }

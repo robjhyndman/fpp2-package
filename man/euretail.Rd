@@ -4,7 +4,9 @@
 \name{euretail}
 \alias{euretail}
 \title{Quarterly retail trade: Euro area.}
-\format{Quarterly time series of class \code{ts}.}
+\format{
+Quarterly time series of class \code{ts}.
+}
 \source{
 Eurostat. \url{http://data.is/IdKyZr}
 }

@@ -4,7 +4,9 @@
 \name{visnights}
 \alias{visnights}
 \title{Quarterly visitor nights for various regions of Australia.}
-\format{Time series object of class \code{mts}.}
+\format{
+Time series object of class \code{mts}.
+}
 \source{
 Tourism Research Australia.
 }

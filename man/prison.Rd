@@ -5,9 +5,11 @@
 \alias{prison}
 \alias{prisonLF}
 \title{prison}
-\format{Quarterly time series of prisoner numbers in Australia from 2005 to 2016, split
+\format{
+Quarterly time series of prisoner numbers in Australia from 2005 to 2016, split
 by sex, state and legal status. \code{prisonLF} is a long-form version of the data of
-class \code{data.frame}, while \code{prison} is in wide form and of class \code{mts}.}
+class \code{data.frame}, while \code{prison} is in wide form and of class \code{mts}.
+}
 \description{
 prison
 }

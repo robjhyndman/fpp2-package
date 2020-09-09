@@ -5,7 +5,9 @@
 \alias{wmurders}
 \title{Annual female murder rate (per 100,000 standard population) in the USA.
 1950-2004.}
-\format{Annual time series of class \code{ts}.}
+\format{
+Annual time series of class \code{ts}.
+}
 \source{
 Gapminder Foundation. \url{http://data.is/XKa24F}
 }

@@ -4,7 +4,9 @@
 \name{austa}
 \alias{austa}
 \title{International visitors to Australia}
-\format{Annual time series of class \code{ts}.}
+\format{
+Annual time series of class \code{ts}.
+}
 \source{
 International Visitor Survey, Tourism Research Australia.
 }

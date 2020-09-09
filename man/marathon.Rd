@@ -4,7 +4,9 @@
 \name{marathon}
 \alias{marathon}
 \title{Boston marathon winning times since 1897}
-\format{Annual time series of class \code{ts}.}
+\format{
+Annual time series of class \code{ts}.
+}
 \source{
 Boston Athletic Association.
 \url{http://www.baa.org/races/boston-marathon/boston-marathon-history/champions/mens-open-division.aspx}

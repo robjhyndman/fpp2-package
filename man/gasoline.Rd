@@ -4,7 +4,9 @@
 \name{gasoline}
 \alias{gasoline}
 \title{US finished motor gasoline product supplied.}
-\format{Time series object of class \code{ts}.}
+\format{
+Time series object of class \code{ts}.
+}
 \source{
 US Energy Information Administration.
 }

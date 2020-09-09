@@ -4,7 +4,9 @@
 \name{insurance}
 \alias{insurance}
 \title{Insurance quotations and advertising expenditure.}
-\format{Monthly time series of class \code{ts}.}
+\format{
+Monthly time series of class \code{ts}.
+}
 \source{
 Kindly provided by Dave Reilly, Automatic Forecasting Systems.
 }

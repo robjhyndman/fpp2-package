@@ -5,7 +5,9 @@
 \alias{uschange}
 \alias{usconsumption}
 \title{Growth rates of personal consumption and personal income in the USA.}
-\format{Time series object of class \code{ts}.}
+\format{
+Time series object of class \code{ts}.
+}
 \source{
 Federal Reserve Bank of St Louis. \url{http://data.is/AnVtzB}.
 \url{http://data.is/wQPcjU}.

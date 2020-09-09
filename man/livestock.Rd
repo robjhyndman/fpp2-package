@@ -4,7 +4,9 @@
 \name{livestock}
 \alias{livestock}
 \title{Livestock (sheep) in Asia, 1961-2007.}
-\format{Annual time series of class \code{ts}.}
+\format{
+Annual time series of class \code{ts}.
+}
 \source{
 United Nations. \url{http://data.is/GFxwQi}
 }

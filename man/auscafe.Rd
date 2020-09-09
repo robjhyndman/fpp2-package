@@ -4,7 +4,9 @@
 \name{auscafe}
 \alias{auscafe}
 \title{Monthly expenditure on eating out in Australia}
-\format{Monthly time series of class \code{ts}.}
+\format{
+Monthly time series of class \code{ts}.
+}
 \source{
 Australian Bureau of Statistics. Catalogue No. 8501.0
 }

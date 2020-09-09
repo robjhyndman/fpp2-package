@@ -4,7 +4,9 @@
 \name{elecsales}
 \alias{elecsales}
 \title{Electricity sales to residential customers in South Australia.}
-\format{Time series object of class \code{ts}.}
+\format{
+Time series object of class \code{ts}.
+}
 \source{
 Australian Energy Market Operator.
 }

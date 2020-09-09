@@ -4,7 +4,9 @@
 \name{ausair}
 \alias{ausair}
 \title{Air Transport Passengers Australia}
-\format{Annual time series of class \code{ts}.}
+\format{
+Annual time series of class \code{ts}.
+}
 \source{
 World Bank. \url{http://data.is/x5KiEO}
 }

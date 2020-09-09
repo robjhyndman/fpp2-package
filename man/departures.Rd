@@ -4,7 +4,8 @@
 \name{departures}
 \alias{departures}
 \title{Total monthly departures from Australia}
-\format{Multiple monthly time series of class \code{mts} containing the
+\format{
+Multiple monthly time series of class \code{mts} containing the
 following series:
 \tabular{ll}{
   permanent \tab permanent departures from Australia.\cr
@@ -12,7 +13,8 @@ following series:
   vislong   \tab long-term visitor departures from Australia.\cr
   resshort  \tab short-term resident departures from Australia.\cr
   visshort  \tab short-term visitor departures from Australia.
-}}
+}
+}
 \source{
 Australian Bureau of Statistics. Catalogue No 3401.02.
 }

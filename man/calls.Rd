@@ -4,7 +4,9 @@
 \name{calls}
 \alias{calls}
 \title{Call volume for a large North American bank}
-\format{Time series object of class \code{msts}.}
+\format{
+Time series object of class \code{msts}.
+}
 \source{
 Rob Hyndman
 }

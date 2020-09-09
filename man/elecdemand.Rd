@@ -5,7 +5,9 @@
 \alias{elecdemand}
 \alias{elecdaily}
 \title{Half-hourly and daily electricity demand for Victoria, Australia, in 2014}
-\format{Multiple time series of class \code{mts}.}
+\format{
+Multiple time series of class \code{mts}.
+}
 \source{
 Australian Energy Market Operator, and the Australian Bureau of
 Meteorology.

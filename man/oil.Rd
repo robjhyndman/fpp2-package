@@ -4,7 +4,9 @@
 \name{oil}
 \alias{oil}
 \title{Annual oil production in Saudi Arabia}
-\format{Annual time series of class \code{ts}.}
+\format{
+Annual time series of class \code{ts}.
+}
 \source{
 BP. \url{http://data.is/GEOHU3}
 }

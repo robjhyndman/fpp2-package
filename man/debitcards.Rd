@@ -4,7 +4,9 @@
 \name{debitcards}
 \alias{debitcards}
 \title{Retail debit card usage in Iceland.}
-\format{Monthly time series of class \code{ts}.}
+\format{
+Monthly time series of class \code{ts}.
+}
 \source{
 Statistics Iceland. \url{http://data.is/HFzL69}
 }

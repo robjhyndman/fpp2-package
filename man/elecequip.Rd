@@ -4,7 +4,9 @@
 \name{elecequip}
 \alias{elecequip}
 \title{Electrical equipment manufactured in the Euro area.}
-\format{Time series object of class \code{ts}.}
+\format{
+Time series object of class \code{ts}.
+}
 \source{
 Eurostat. \url{http://data.is/y6dO8i}
 }

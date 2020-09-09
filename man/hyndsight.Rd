@@ -4,7 +4,9 @@
 \name{hyndsight}
 \alias{hyndsight}
 \title{Daily pageviews for the Hyndsight blog. 30 April 2014 to 29 April 2015.}
-\format{Time series object of class \code{ts}.}
+\format{
+Time series object of class \code{ts}.
+}
 \source{
 Rob Hyndman
 }

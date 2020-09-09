@@ -4,7 +4,9 @@
 \name{a10}
 \alias{a10}
 \title{Monthly anti-diabetic drug subsidy in Australia from 1991 to 2008.}
-\format{Monthly time series of class \code{ts}.}
+\format{
+Monthly time series of class \code{ts}.
+}
 \source{
 Medicare Australia
 }

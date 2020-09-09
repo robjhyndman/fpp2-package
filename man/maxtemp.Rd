@@ -4,7 +4,9 @@
 \name{maxtemp}
 \alias{maxtemp}
 \title{Maximum annual temperatures at Moorabbin Airport, Melbourne}
-\format{Annual time series of class \code{ts}.}
+\format{
+Annual time series of class \code{ts}.
+}
 \source{
 Australian Bureau of Meteorology.
 }

@@ -4,7 +4,9 @@
 \name{qauselec}
 \alias{qauselec}
 \title{Quarterly Australian Electricity production}
-\format{Quarterly time series of class \code{ts}.}
+\format{
+Quarterly time series of class \code{ts}.
+}
 \source{
 Australian Bureau of Statistics. Cat. 8301.0.55.001.
 }

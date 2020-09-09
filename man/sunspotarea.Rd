@@ -4,7 +4,9 @@
 \name{sunspotarea}
 \alias{sunspotarea}
 \title{Annual average sunspot area (1875-2015)}
-\format{Annual time series of class \code{ts}.}
+\format{
+Annual time series of class \code{ts}.
+}
 \source{
 NASA
 }
