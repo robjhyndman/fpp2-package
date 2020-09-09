@@ -1,3 +1,7 @@
+# Version 2.4 (9 September 2020)
+ * Updated data descriptions for a10, h02, and calls.
+ * Fixed day of week for elecdaily data
+
 # Version 2.3 (12 April 2018)
  * Changed scale of visnights and gasoline
  * Added packages to Suggests for all examples
