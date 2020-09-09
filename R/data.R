@@ -283,24 +283,6 @@ NULL
 #'
 NULL
 
-#' Data for "Forecasting: principles and practice" (2nd ed, 2017)
-#'
-#' All data sets required for the examples and exercises in the book
-#' "Forecasting: principles and practice" (2nd ed, 2017) by Rob J Hyndman and
-#' George Athanasopoulos. This package also loads other packages required for
-#' the book.
-#'
-#' @name fpp-package
-#' @aliases fpp-package fpp fpp2
-#' @docType package
-#' @author Rob J Hyndman
-#' @references Hyndman, R.J., and Athanasopoulos, G. (2017).
-#' \emph{Forecasting: principles and practice}, OTexts: Melbourne, Australia.
-#' \url{http://OTexts.org/fpp2/}
-#' @seealso \code{\link[forecast]{forecast}} package
-#' @keywords package
-NULL
-
 #' US finished motor gasoline product supplied.
 #'
 #' Weekly data beginning 2 February 1991, ending 20 January 2017. Units are
