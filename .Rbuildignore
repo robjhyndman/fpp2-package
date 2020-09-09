@@ -20,3 +20,4 @@
 ^docs$
 Makefile
 ^\.github$
+^cran-comments\.md$
