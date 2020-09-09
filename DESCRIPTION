@@ -1,9 +1,9 @@
 Package: fpp2
 Version: 2.4
 Title: Data for "Forecasting: Principles and Practice" (2nd Edition)
-Description: All data sets required for the examples and exercises 
+Description: All data sets required for the examples and exercises
   in the book "Forecasting: principles and practice" (2nd ed, 2018)
-  by Rob J Hyndman and George Athanasopoulos <http://OTexts.org/fpp2/>. 
+  by Rob J Hyndman and George Athanasopoulos <http://OTexts.com/fpp2/>.
   All packages required to run the examples are also loaded.
 Depends: R (>= 2.10)
 Imports:
@@ -17,17 +17,17 @@ Imports:
   purrr (>= 0.2.4),
   rstudioapi (>= 0.7)
 Suggests: GGally,gridExtra,Mcomp,seasonal,tidyverse,vars
-Authors@R: 
-  c(person(given="Rob", 
-           family="Hyndman", 
+Authors@R:
+  c(person(given="Rob",
+           family="Hyndman",
            role=c("aut", "cre", "cph"),
            email="Rob.Hyndman@monash.edu"),
     person(given = "RStudio",
            role = c("cph")))
-URL: 
-  http://pkg.robjhyndman.com/fpp2-package, 
-  https://github.com/robjhyndman/fpp2-package, 
-  https://OTexts.org/fpp2/
+URL:
+  http://pkg.robjhyndman.com/fpp2-package,
+  https://github.com/robjhyndman/fpp2-package,
+  https://OTexts.com/fpp2/
 BugReports: https://github.com/robjhyndman/fpp2-package/issues
 Encoding: UTF-8
 License: GPL-3
