@@ -3,7 +3,7 @@ Version: 2.4
 Title: Data for "Forecasting: Principles and Practice" (2nd Edition)
 Description: All data sets required for the examples and exercises
   in the book "Forecasting: principles and practice" (2nd ed, 2018)
-  by Rob J Hyndman and George Athanasopoulos <http://otexts.com/fpp2/>.
+  by Rob J Hyndman and George Athanasopoulos <https://otexts.com/fpp2/>.
   All packages required to run the examples are also loaded.
 Depends: R (>= 2.10)
 Imports:
@@ -25,7 +25,7 @@ Authors@R:
     person(given = "RStudio",
            role = c("cph")))
 URL:
-  http://pkg.robjhyndman.com/fpp2-package/,
+  https://pkg.robjhyndman.com/fpp2-package/,
   https://github.com/robjhyndman/fpp2-package,
   https://otexts.com/fpp2/
 BugReports: https://github.com/robjhyndman/fpp2-package/issues
