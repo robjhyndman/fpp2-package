@@ -19,3 +19,4 @@
 ^appveyor\.yml$
 ^docs$
 Makefile
+^\.github$
