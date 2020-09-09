@@ -10,6 +10,7 @@ Depends: R (>= 2.10),
   forecast (>= 8.3),
   fma,
   expsmooth
+BugReports: https://github.com/robjhyndman/fpp2-package/issues
 Suggests: GGally,gridExtra,Mcomp,purrr,seasonal,tidyverse,vars
 LazyData: yes
 LazyLoad: yes
