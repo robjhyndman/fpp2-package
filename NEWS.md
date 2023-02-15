@@ -1,3 +1,6 @@
+# Version 2.5 (15 February 2023)
+ * Reduced package dependencies
+
 # Version 2.4 (9 September 2020)
  * Updated data descriptions for a10, h02, and calls.
  * Fixed day of week for elecdaily data
