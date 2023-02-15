@@ -6,10 +6,7 @@
 \alias{fpp2-package}
 \title{fpp2: Data for "Forecasting: Principles and Practice" (2nd Edition)}
 \description{
-All data sets required for the examples and exercises
-  in the book "Forecasting: principles and practice" (2nd ed, 2018)
-  by Rob J Hyndman and George Athanasopoulos <https://otexts.com/fpp2/>.
-  All packages required to run the examples are also loaded.
+All data sets required for the examples and exercises in the book "Forecasting: principles and practice" (2nd ed, 2018) by Rob J Hyndman and George Athanasopoulos \url{https://otexts.com/fpp2/}. All packages required to run the examples are also loaded.
 }
 \seealso{
 Useful links:

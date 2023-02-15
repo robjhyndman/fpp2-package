@@ -33,4 +33,4 @@ Encoding: UTF-8
 License: GPL-3
 LazyData: yes
 LazyLoad: yes
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3

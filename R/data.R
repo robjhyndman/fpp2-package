@@ -310,7 +310,7 @@ NULL
 #' @name goog
 #' @docType data
 #' @format Daily time series of class \code{ts}.
-#' @source \url{https://goo.gl/5KBjL5}
+#' @source \url{https://finance.yahoo.com/quote/GOOG/history}
 #' @keywords datasets
 #' @examples
 #'
