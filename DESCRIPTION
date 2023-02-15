@@ -16,7 +16,7 @@ Imports:
   magrittr (>= 1.5),
   purrr (>= 0.2.4),
   rstudioapi (>= 0.7)
-Suggests: GGally,gridExtra,Mcomp,seasonal,tidyverse,vars
+Suggests: GGally,gridExtra,Mcomp,seasonal,vars
 Authors@R:
   c(person(given="Rob",
            family="Hyndman",
