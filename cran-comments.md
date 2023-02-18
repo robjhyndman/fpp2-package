@@ -1,21 +1,13 @@
+The 404 error is incorrect. The URL works.
+
 ## Test environments
 
-* local R installation, Ubuntu 20.04, R 4.0.2
-* MacOSX latest, release (via github actions)
-* Windows-latest release (via github actions)
-* Windows-latest R 3.6 (via github actions)
-* Ubuntu 16.04, devel (via github actions)
-* Ubuntu 16.04, release (via github actions)
-* Ubuntu 16.04, oldrelease (via github actions)
-* Ubuntu 16.04, R 3.5 (via github actions)
-* Ubuntu 16.04, R 3.4 (via github actions)
-* Ubuntu 16.04, R 3.3 (via github actions)
-* Winbuilder oldrelease
-* Winbuilder release
-* Winbuilder devel
+* ubuntu 22.04 (local): R 4.2.2
+* macOS (on GitHub Actions): release
+* windows (on GitHub Actions): release
+* ubuntu 22.04.1 (on GitHub Actions): devel, release, oldrel
+* win-builder: devel, release, oldrelease
 
 ## R CMD check results
 
 0 errors | 0 warnings | 0 notes
-
-
