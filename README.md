@@ -41,15 +41,15 @@ remotes::install_github("robjhyndman/fpp2-package")
 
 `library(fpp2)` will load the following packages:
 
-  - [forecast](https://pkg.robjhyndman.com/forecast/), for forecasting
-    methods and some data sets.
-  - [ggplot2](https://ggplot2.tidyverse.org), for data visualisation.
-  - [fma](https://pkg.robjhyndman.com/fma/), for data taken from the
-    book “Forecasting: methods and applications” by Makridakis,
-    Wheelwright and Hyndman (1998).
-  - [expsmooth](https://pkg.robjhyndman.com/expsmooth/), for data taken
-    from the book “Forecasting with Exponential Smoothing” by Hyndman,
-    Koehler, Ord and Snyder (2008).
+- [forecast](https://pkg.robjhyndman.com/forecast/), for forecasting
+  methods and some data sets.
+- [ggplot2](https://ggplot2.tidyverse.org), for data visualisation.
+- [fma](https://pkg.robjhyndman.com/fma/), for data taken from the book
+  “Forecasting: methods and applications” by Makridakis, Wheelwright and
+  Hyndman (1998).
+- [expsmooth](https://pkg.robjhyndman.com/expsmooth/), for data taken
+  from the book “Forecasting with Exponential Smoothing” by Hyndman,
+  Koehler, Ord and Snyder (2008).
 
 You also get a condensed summary of conflicts with other packages you
 have loaded:
@@ -59,8 +59,8 @@ library(fpp2)
 #> Registered S3 method overwritten by 'quantmod':
 #>   method            from
 #>   as.zoo.data.frame zoo
-#> ── Attaching packages ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── fpp2 2.4 ──
-#> ✓ ggplot2   3.3.2           ✓ fma       2.4        
-#> ✓ forecast  8.12.0.9000     ✓ expsmooth 2.4
+#> ── Attaching packages ────────────────────────────────────────────── fpp2 2.5 ──
+#> ✔ ggplot2   3.4.0     ✔ fma       2.5  
+#> ✔ forecast  8.20      ✔ expsmooth 2.4
 #> 
 ```
