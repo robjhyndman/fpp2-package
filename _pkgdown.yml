@@ -18,6 +18,13 @@ navbar:
       href: https://github.com/robjhyndman/fpp2-package
 
 reference:
+  - title: "Package"
+    contents:
+      - fpp2-package
+  - title: "Functions"
+    contents:
+      - fpp2_conflicts
+      - fpp2_packages
   - title: "Super-Annual Data"
     desc: "Data recorded at intervals greater than one year"
     contents:
