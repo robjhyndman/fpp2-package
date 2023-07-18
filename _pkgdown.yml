@@ -16,7 +16,7 @@ authors:
     href: http://robjhyndman.com
 
 navbar:
-  type: default
+  type: light
   left:
     - text: "Reference"
       href: reference/index.html
