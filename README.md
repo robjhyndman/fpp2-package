@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# fpp2
+# fpp2 <img src="man/figures/logo.png" align="right" width = 150 />
 
 <!-- badges: start -->
 
@@ -60,7 +60,7 @@ library(fpp2)
 #>   method            from
 #>   as.zoo.data.frame zoo
 #> ── Attaching packages ────────────────────────────────────────────── fpp2 2.5 ──
-#> ✔ ggplot2   3.4.0     ✔ fma       2.5  
-#> ✔ forecast  8.20      ✔ expsmooth 2.4
+#> ✔ ggplot2   4.0.1           ✔ fma       2.5        
+#> ✔ forecast  8.24            ✔ expsmooth 2.3
 #> 
 ```

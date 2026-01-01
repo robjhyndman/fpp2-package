@@ -11,7 +11,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# fpp2
+# fpp2 <img src="man/figures/logo.png" align="right" width = 150 />
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/fpp2)](https://cran.r-project.org/package=fpp2)
@@ -54,4 +54,3 @@ You also get a condensed summary of conflicts with other packages you have loade
 ```{r example}
 library(fpp2)
 ```
-
